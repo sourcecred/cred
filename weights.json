@@ -1,0 +1,45 @@
+[
+  {
+    "type": "sourcecred/weights",
+    "version": "0.1.0"
+  },
+  {
+    "edgeTypeWeights": {
+      "E\u0000sourcecred\u0000discourse\u0000authors\u0000post\u0000": {
+        "backwards": 1,
+        "forwards": 0.125
+      },
+      "E\u0000sourcecred\u0000discourse\u0000authors\u0000topic\u0000": {
+        "backwards": 1,
+        "forwards": 0.125
+      },
+      "E\u0000sourcecred\u0000discourse\u0000likes\u0000": {
+        "backwards": 0.0625,
+        "forwards": 2
+      },
+      "E\u0000sourcecred\u0000github\u0000AUTHORS\u0000": {
+        "backwards": 1,
+        "forwards": 0.125
+      },
+      "E\u0000sourcecred\u0000github\u0000HAS_PARENT\u0000": {
+        "backwards": 0.125,
+        "forwards": 0.5
+      },
+      "E\u0000sourcecred\u0000github\u0000REACTS\u0000HOORAY\u0000": {
+        "backwards": 0,
+        "forwards": 2
+      }
+    },
+    "nodeManualWeights": {},
+    "nodeTypeWeights": {
+      "N\u0000sourcecred\u0000discourse\u0000post\u0000": 2,
+      "N\u0000sourcecred\u0000discourse\u0000topic\u0000": 8,
+      "N\u0000sourcecred\u0000github\u0000COMMENT\u0000": 0.25,
+      "N\u0000sourcecred\u0000github\u0000COMMIT\u0000": 0.125,
+      "N\u0000sourcecred\u0000github\u0000ISSUE\u0000": 1,
+      "N\u0000sourcecred\u0000github\u0000PULL\u0000": 1,
+      "N\u0000sourcecred\u0000github\u0000REPO\u0000": 1,
+      "N\u0000sourcecred\u0000github\u0000REVIEW\u0000": 1
+    }
+  }
+]

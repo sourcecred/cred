@@ -1,0 +1,38 @@
+[
+  {
+    "type": "sourcecred/project",
+    "version": "0.3.0"
+  },
+  {
+    "discourseServer": {
+      "apiUsername": "credbot",
+      "serverUrl": "https://discourse.sourcecred.io"
+    },
+    "id": "sourcecred-combined",
+    "identities": [
+      {"username": "decentralion", "aliases": ["github/decentralion", "discourse/decentralion"]},
+      {"username": "Beanow", "aliases": ["github/Beanow", "discourse/Beanow"]},
+      {"username": "BrianLitwin", "aliases": ["github/BrianLitwin", "discourse/brianlitwin"]},
+      {"username": "mzargham", "aliases": ["github/mzargham", "discourse/mzargham"]},
+      {"username": "s_ben", "aliases": ["github/s-ben", "discourse/s_ben"]},
+      {"username": "ryanMorton", "aliases": ["github/mortonanalytics", "discourse/ryanMorton"]},
+      {"username": "ericronne", "aliases": ["github/ericronne", "discourse/ericronne"]},
+      {"username": "zixuanzh", "aliases": ["github/zixuanzh", "discourse/zixuanzh"]},
+      {"username": "wchargin", "aliases": ["github/wchargin", "discourse/wchargin"]}
+    ],
+    "repoIds": [
+      {
+        "name": "sourcecred",
+        "owner": "sourcecred"
+      },
+      {
+        "name": "widgets",
+        "owner": "sourcecred"
+      },
+      {
+        "name": "research",
+        "owner": "sourcecred"
+      }
+    ]
+  }
+]
