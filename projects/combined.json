@@ -8,7 +8,7 @@
       "apiUsername": "credbot",
       "serverUrl": "https://discourse.sourcecred.io"
     },
-    "id": "sourcecred-combined",
+    "id": "@sourcecred",
     "identities": [
       {"username": "decentralion", "aliases": ["github/decentralion", "discourse/decentralion"]},
       {"username": "Beanow", "aliases": ["github/Beanow", "discourse/Beanow"]},
