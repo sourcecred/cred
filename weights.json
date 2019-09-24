@@ -19,11 +19,15 @@
       },
       "E\u0000sourcecred\u0000github\u0000AUTHORS\u0000": {
         "backwards": 1,
-        "forwards": 0.125
+        "forwards": 0.0625
       },
       "E\u0000sourcecred\u0000github\u0000HAS_PARENT\u0000": {
-        "backwards": 0.125,
-        "forwards": 0.5
+        "backwards": 0.25,
+        "forwards": 0.0625
+      },
+      "E\u0000sourcecred\u0000github\u0000MERGED_AS\u0000": {
+        "backwards": 0,
+        "forwards": 0
       },
       "E\u0000sourcecred\u0000github\u0000REACTS\u0000HOORAY\u0000": {
         "backwards": 0,
@@ -34,12 +38,16 @@
     "nodeTypeWeights": {
       "N\u0000sourcecred\u0000discourse\u0000post\u0000": 2,
       "N\u0000sourcecred\u0000discourse\u0000topic\u0000": 8,
-      "N\u0000sourcecred\u0000github\u0000COMMENT\u0000": 0.25,
-      "N\u0000sourcecred\u0000github\u0000COMMIT\u0000": 0.125,
+      "N\u0000sourcecred\u0000discourse\u0000user\u0000": 0,
+      "N\u0000sourcecred\u0000github\u0000COMMENT\u0000": 0.0625,
+      "N\u0000sourcecred\u0000github\u0000COMMIT\u0000": 0,
       "N\u0000sourcecred\u0000github\u0000ISSUE\u0000": 1,
       "N\u0000sourcecred\u0000github\u0000PULL\u0000": 1,
-      "N\u0000sourcecred\u0000github\u0000REPO\u0000": 1,
-      "N\u0000sourcecred\u0000github\u0000REVIEW\u0000": 1
+      "N\u0000sourcecred\u0000github\u0000REPO\u0000": 0,
+      "N\u0000sourcecred\u0000github\u0000REVIEW\u0000": 1,
+      "N\u0000sourcecred\u0000github\u0000USERLIKE\u0000BOT\u0000": 0,
+      "N\u0000sourcecred\u0000github\u0000USERLIKE\u0000USER\u0000": 0,
+      "N\u0000sourcecred\u0000identity\u0000": 0
     }
   }
 ]
