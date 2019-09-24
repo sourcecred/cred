@@ -1,18 +1,14 @@
 {
-  "main.js": "static/js/main.2407d660.js",
-  "main.js.map": "static/js/main.2407d660.js.map",
-  "ssr.js": "static/js/ssr.cc1c3d3e.js",
-  "ssr.js.map": "static/js/ssr.cc1c3d3e.js.map",
+  "main.js": "static/js/main.f0e5ff44.js",
+  "main.js.map": "static/js/main.f0e5ff44.js.map",
+  "ssr.js": "static/js/ssr.70aa79a3.js",
+  "ssr.js.map": "static/js/ssr.70aa79a3.js.map",
   "discord-invite/index.html": "discord-invite/index.html",
   "favicon.png": "favicon.png",
   "index.html": "index.html",
   "prototype/@sourcecred/index.html": "prototype/@sourcecred/index.html",
   "prototype/index.html": "prototype/index.html",
-  "prototype/sourcecred-discourse/index.html": "prototype/sourcecred-discourse/index.html",
-  "prototype/sourcecred-github/index.html": "prototype/sourcecred-github/index.html",
   "test/FileUploader/index.html": "test/FileUploader/index.html",
   "test/TimelineCredView/index.html": "test/TimelineCredView/index.html",
-  "timeline/@sourcecred/index.html": "timeline/@sourcecred/index.html",
-  "timeline/sourcecred-discourse/index.html": "timeline/sourcecred-discourse/index.html",
-  "timeline/sourcecred-github/index.html": "timeline/sourcecred-github/index.html"
+  "timeline/@sourcecred/index.html": "timeline/@sourcecred/index.html"
 }
