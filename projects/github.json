@@ -19,6 +19,10 @@
       {
         "name": "research",
         "owner": "sourcecred"
+      },
+      {
+        "name": "payouts",
+        "owner": "sourcecred"
       }
     ]
   }
