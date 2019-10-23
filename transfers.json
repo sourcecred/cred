@@ -1,0 +1,18 @@
+[
+  {
+    "type": "sourcecred/transfer",
+    "version": "0.1.0"
+  },
+  [
+    {
+      "from": "sourcecred/@s_ben",
+      "to": "sourcecred/@protocol",
+      "amount": 11214,
+      "timestamp": 1571414719000,
+      "references": [
+        "https://opencollective.com/seth-benton/expenses/10744",
+        "https://discourse.sourcecred.io/t/credsperiment-week-3-distribution/282/10"
+      ]
+    }
+  ]
+]
