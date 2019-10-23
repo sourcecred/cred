@@ -37,6 +37,10 @@
       {
         "name": "payouts",
         "owner": "sourcecred"
+      },
+      {
+        "name": "cred",
+        "owner": "sourcecred"
       }
     ]
   }
