@@ -13,6 +13,14 @@
         "https://opencollective.com/seth-benton/expenses/10744",
         "https://discourse.sourcecred.io/t/credsperiment-week-3-distribution/282/10"
       ]
+    },
+    {
+      "from": "sourcecred/@s_ben",
+      "to": "sourcecred/@protocol",
+      "amount": 90000,
+      "timestamp": 1572659920737,
+      "references": [
+      ]
     }
   ]
 ]
