@@ -20,6 +20,7 @@
       "amount": 90000,
       "timestamp": 1572659920737,
       "references": [
+        "https://github.com/sourcecred/cred/pull/5"
       ]
     }
   ]
