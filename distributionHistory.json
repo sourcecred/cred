@@ -4285,5 +4285,513 @@
                 "slow": 0
             }
         ]
+    },
+    {
+        "interval": {
+            "endTimeMs": 1575158400000,
+            "startTimeMs": 1574553600000
+        },
+        "payments": [
+            {
+                "alias": "sourcecred/@decentralion",
+                "fast": 107933,
+                "slow": 492818
+            },
+            {
+                "alias": "sourcecred/@wchargin",
+                "fast": 13502,
+                "slow": 327861
+            },
+            {
+                "alias": "sourcecred/@Beanow",
+                "fast": 58657,
+                "slow": 68851
+            },
+            {
+                "alias": "sourcecred/@s_ben",
+                "fast": 55143,
+                "slow": 42918
+            },
+            {
+                "alias": "discourse/@burrrata",
+                "fast": 8970,
+                "slow": 77670
+            },
+            {
+                "alias": "sourcecred/@mzargham",
+                "fast": 8191,
+                "slow": 30246
+            },
+            {
+                "alias": "github/@vsoch",
+                "fast": 8663,
+                "slow": 14268
+            },
+            {
+                "alias": "sourcecred/@BrianLitwin",
+                "fast": 19,
+                "slow": 17756
+            },
+            {
+                "alias": "discourse/@LB",
+                "fast": 11846,
+                "slow": 6379
+            },
+            {
+                "alias": "discourse/@noman",
+                "fast": 0,
+                "slow": 15127
+            },
+            {
+                "alias": "sourcecred/@nayafia",
+                "fast": 16,
+                "slow": 8846
+            },
+            {
+                "alias": "discourse/@AdrienDLT",
+                "fast": 3388,
+                "slow": 5192
+            },
+            {
+                "alias": "sourcecred/@ericronne",
+                "fast": 2321,
+                "slow": 5528
+            },
+            {
+                "alias": "sourcecred/@ryanMorton",
+                "fast": 0,
+                "slow": 6950
+            },
+            {
+                "alias": "discourse/@JoshAFairhead",
+                "fast": 912,
+                "slow": 5519
+            },
+            {
+                "alias": "github/@wpank",
+                "fast": 0,
+                "slow": 4858
+            },
+            {
+                "alias": "discourse/@Jessie",
+                "fast": 9315,
+                "slow": 0
+            },
+            {
+                "alias": "discourse/@NukeManDan",
+                "fast": 1001,
+                "slow": 3659
+            },
+            {
+                "alias": "discourse/@system",
+                "fast": 0,
+                "slow": 4065
+            },
+            {
+                "alias": "discourse/@nothingismagick",
+                "fast": 247,
+                "slow": 3642
+            },
+            {
+                "alias": "discourse/@rzurrer",
+                "fast": 580,
+                "slow": 3196
+            },
+            {
+                "alias": "discourse/@jeffemmett",
+                "fast": 307,
+                "slow": 3011
+            },
+            {
+                "alias": "discourse/@max",
+                "fast": 0,
+                "slow": 3072
+            },
+            {
+                "alias": "discourse/@davidfs",
+                "fast": 0,
+                "slow": 3068
+            },
+            {
+                "alias": "github/@anthrocypher",
+                "fast": 0,
+                "slow": 2794
+            },
+            {
+                "alias": "discourse/@lkngtn",
+                "fast": 5,
+                "slow": 2532
+            },
+            {
+                "alias": "discourse/@buffalonetwork",
+                "fast": 0,
+                "slow": 2424
+            },
+            {
+                "alias": "discourse/@cbrocoum",
+                "fast": 0,
+                "slow": 2361
+            },
+            {
+                "alias": "github/@elijms",
+                "fast": 0,
+                "slow": 2135
+            },
+            {
+                "alias": "discourse/@panchovillage",
+                "fast": 633,
+                "slow": 1598
+            },
+            {
+                "alias": "github/@tylerdmace",
+                "fast": 0,
+                "slow": 2050
+            },
+            {
+                "alias": "discourse/@jessicaschilling",
+                "fast": 1034,
+                "slow": 1232
+            },
+            {
+                "alias": "discourse/@ajbouh",
+                "fast": 33,
+                "slow": 1713
+            },
+            {
+                "alias": "sourcecred/@zixuanzh",
+                "fast": 14,
+                "slow": 1685
+            },
+            {
+                "alias": "github/@nothingismagick",
+                "fast": 12,
+                "slow": 1678
+            },
+            {
+                "alias": "discourse/@miyazono",
+                "fast": 2035,
+                "slow": 73
+            },
+            {
+                "alias": "github/@casperdcl",
+                "fast": 2,
+                "slow": 1558
+            },
+            {
+                "alias": "github/@mikeal",
+                "fast": 0,
+                "slow": 1507
+            },
+            {
+                "alias": "discourse/@victor",
+                "fast": 0,
+                "slow": 1380
+            },
+            {
+                "alias": "github/@expravit",
+                "fast": 0,
+                "slow": 1329
+            },
+            {
+                "alias": "discourse/@henri",
+                "fast": 0,
+                "slow": 1121
+            },
+            {
+                "alias": "discourse/@piamancini",
+                "fast": 0,
+                "slow": 1090
+            },
+            {
+                "alias": "discourse/@kronosapiens",
+                "fast": 294,
+                "slow": 825
+            },
+            {
+                "alias": "discourse/@Brutalfluffy",
+                "fast": 0,
+                "slow": 1043
+            },
+            {
+                "alias": "discourse/@atitcomb",
+                "fast": 1,
+                "slow": 1037
+            },
+            {
+                "alias": "discourse/@balasan",
+                "fast": 593,
+                "slow": 397
+            },
+            {
+                "alias": "discourse/@renrutnnej",
+                "fast": 695,
+                "slow": 302
+            },
+            {
+                "alias": "discourse/@erlend_sh",
+                "fast": 81,
+                "slow": 735
+            },
+            {
+                "alias": "discourse/@sriche",
+                "fast": 38,
+                "slow": 763
+            },
+            {
+                "alias": "github/@lpatmo",
+                "fast": 0,
+                "slow": 761
+            },
+            {
+                "alias": "discourse/@Jack",
+                "fast": 0,
+                "slow": 744
+            },
+            {
+                "alias": "github/@jakubgs",
+                "fast": 24,
+                "slow": 619
+            },
+            {
+                "alias": "discourse/@anthrocypher",
+                "fast": 0,
+                "slow": 579
+            },
+            {
+                "alias": "github/@jart",
+                "fast": 0,
+                "slow": 521
+            },
+            {
+                "alias": "discourse/@Bex2594",
+                "fast": 794,
+                "slow": 0
+            },
+            {
+                "alias": "discourse/@ig-shaun",
+                "fast": 0,
+                "slow": 471
+            },
+            {
+                "alias": "github/@chriscool",
+                "fast": 0,
+                "slow": 460
+            },
+            {
+                "alias": "discourse/@AFDudley",
+                "fast": 1106,
+                "slow": 0
+            },
+            {
+                "alias": "discourse/@dfield",
+                "fast": 0,
+                "slow": 454
+            },
+            {
+                "alias": "github/@AChildAtPlay",
+                "fast": 0,
+                "slow": 449
+            },
+            {
+                "alias": "discourse/@mikeal",
+                "fast": 0,
+                "slow": 433
+            },
+            {
+                "alias": "github/@raravi",
+                "fast": 0,
+                "slow": 350
+            },
+            {
+                "alias": "discourse/@momack2",
+                "fast": 11,
+                "slow": 331
+            },
+            {
+                "alias": "discourse/@dOrgJelli",
+                "fast": 3,
+                "slow": 315
+            },
+            {
+                "alias": "github/@asood123",
+                "fast": 0,
+                "slow": 310
+            },
+            {
+                "alias": "discourse/@whyrusleeping",
+                "fast": 0,
+                "slow": 294
+            },
+            {
+                "alias": "github/@ianjdarrow",
+                "fast": 0,
+                "slow": 294
+            },
+            {
+                "alias": "github/@vmarkovtsev",
+                "fast": 0,
+                "slow": 278
+            },
+            {
+                "alias": "discourse/@nvthvn",
+                "fast": 16,
+                "slow": 266
+            },
+            {
+                "alias": "discourse/@coderberry",
+                "fast": 0,
+                "slow": 259
+            },
+            {
+                "alias": "github/@dfield",
+                "fast": 0,
+                "slow": 241
+            },
+            {
+                "alias": "github/@owocki",
+                "fast": 0,
+                "slow": 235
+            },
+            {
+                "alias": "github/@ajbouh",
+                "fast": 0,
+                "slow": 231
+            },
+            {
+                "alias": "discourse/@boris",
+                "fast": 1541,
+                "slow": 0
+            },
+            {
+                "alias": "github/@monkeywithacupcake",
+                "fast": 1,
+                "slow": 167
+            },
+            {
+                "alias": "github/@lanzafame",
+                "fast": 0,
+                "slow": 146
+            },
+            {
+                "alias": "github/@hamidzr",
+                "fast": 0,
+                "slow": 132
+            },
+            {
+                "alias": "github/@pkafei",
+                "fast": 0,
+                "slow": 115
+            },
+            {
+                "alias": "github/@Dim25",
+                "fast": 0,
+                "slow": 109
+            },
+            {
+                "alias": "github/@lkngtn",
+                "fast": 0,
+                "slow": 91
+            },
+            {
+                "alias": "github/@erlend-sh",
+                "fast": 0,
+                "slow": 89
+            },
+            {
+                "alias": "github/@Recmo",
+                "fast": 0,
+                "slow": 83
+            },
+            {
+                "alias": "github/@yehia67",
+                "fast": 0,
+                "slow": 57
+            },
+            {
+                "alias": "github/@victorb",
+                "fast": 0,
+                "slow": 55
+            },
+            {
+                "alias": "github/@devonzuegel",
+                "fast": 0,
+                "slow": 53
+            },
+            {
+                "alias": "github/@campoy",
+                "fast": 0,
+                "slow": 41
+            },
+            {
+                "alias": "github/@satyaki-mallick",
+                "fast": 0,
+                "slow": 33
+            },
+            {
+                "alias": "github/@mkosowsk",
+                "fast": 0,
+                "slow": 27
+            },
+            {
+                "alias": "github/@ajratner",
+                "fast": 0,
+                "slow": 5
+            },
+            {
+                "alias": "github/@DeepAndy",
+                "fast": 0,
+                "slow": 0
+            },
+            {
+                "alias": "github/@ashwaniYDV",
+                "fast": 0,
+                "slow": 0
+            },
+            {
+                "alias": "github/@burrrata",
+                "fast": 0,
+                "slow": 0
+            },
+            {
+                "alias": "github/@bzz",
+                "fast": 0,
+                "slow": 0
+            },
+            {
+                "alias": "github/@cslarson",
+                "fast": 0,
+                "slow": 0
+            },
+            {
+                "alias": "github/@gr2m",
+                "fast": 0,
+                "slow": 0
+            },
+            {
+                "alias": "github/@jonnydubowsky",
+                "fast": 0,
+                "slow": 0
+            },
+            {
+                "alias": "github/@rishabhnambiar",
+                "fast": 0,
+                "slow": 0
+            },
+            {
+                "alias": "github/@sethtroisi",
+                "fast": 0,
+                "slow": 0
+            },
+            {
+                "alias": "github/@sgrove",
+                "fast": 0,
+                "slow": 0
+            },
+            {
+                "alias": "sourcecred/@protocol",
+                "fast": 0,
+                "slow": 0
+            }
+        ]
     }
 ]
