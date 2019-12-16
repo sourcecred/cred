@@ -22,6 +22,16 @@
       "references": [
         "https://github.com/sourcecred/cred/pull/5"
       ]
+    },
+    {
+      "from": "sourcecred/@s_ben",
+      "to": "sourcecred/@protocol",
+      "amount": 249202,
+      "timestamp": 1575484868786,
+      "references": [
+        "https://github.com/sourcecred/cred/pull/6",
+        "https://observablehq.com/@decentralion/credsperiment-week-11"
+      ]
     }
   ]
 ]
