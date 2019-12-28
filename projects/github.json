@@ -27,6 +27,10 @@
       {
         "name": "cred",
         "owner": "sourcecred"
+      },
+      {
+        "name": "sourcecred-action",
+        "owner": "sourcecred"
       }
     ]
   }
