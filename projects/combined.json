@@ -46,6 +46,10 @@
       {
         "name": "sourcecred-action",
         "owner": "sourcecred"
+      },
+      {
+        "name": "docs",
+        "owner": "sourcecred"
       }
     ]
   }
