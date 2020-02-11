@@ -11,14 +11,14 @@ jobs:
     name: Generate Cred
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v1
-    - name: Run SourceCred
-      uses: vsoch/cred-action@master
-      env:
-        token: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        weights: 'weights.json'
-        project: 'projects/combined.json'  
-        branch-against: master
-        project-id: "@sourcecred"
+      - name: Checkout Repository
+        uses: actions/checkout@v1
+      - name: Run SourceCred
+        uses: vsoch/cred-action@master
+        env:
+          token: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          weights: weights.json
+          project: projects/combined.json
+          branch-against: master
+          project-id: '@sourcecred'
