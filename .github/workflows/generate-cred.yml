@@ -19,6 +19,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
         with:
           weights: weights.json
-          project: projects/combined.json
+          project: '@sourcecred'
+          project-file: projects/combined.json
           branch-against: master
-          project-id: '@sourcecred'
