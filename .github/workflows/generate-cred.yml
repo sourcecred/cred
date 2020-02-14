@@ -1,7 +1,6 @@
 name: generate-cred
 
 on:
-  pull_request: []
   schedule:
     # Nightly at 2:30am 
     - cron: 30 2 * * *
@@ -14,7 +13,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v1
       - name: Run SourceCred
-        uses: vsoch/cred-action@master
+        uses: vsoch/cred-action@24f61d6f9ba427bddbb31be1bc0969c7cc540bfb
         env:
           token: ${{ secrets.GITHUB_TOKEN }}
         with:
