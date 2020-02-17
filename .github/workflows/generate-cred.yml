@@ -13,7 +13,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v1
       - name: Run SourceCred
-        uses: vsoch/cred-action@24f61d6f9ba427bddbb31be1bc0969c7cc540bfb
+        uses: vsoch/cred-action@7bc8a0f6ad98136ab2cf04dc078a0e10632dc3e1 #24f61d6f9ba427bddbb31be1bc0969c7cc540bfb
         env:
           token: ${{ secrets.GITHUB_TOKEN }}
         with:
