@@ -9460,7 +9460,7 @@
                 "slow": 185
             },
             {
-                "alias": "discourse/@sabba",
+                "alias": "sourcecred/@amico",
                 "fast": 643,
                 "slow": 603
             },
@@ -9793,7 +9793,7 @@
                 "slow": 0
             },
             {
-                "alias": "discourse/@sabba",
+                "alias": "sourcecred/@amico",
                 "fast": 5107,
                 "slow": 3240
             },
@@ -10376,7 +10376,7 @@
                 "slow": 0
             },
             {
-                "alias": "discourse/@sabba",
+                "alias": "sourcecred/@amico",
                 "fast": 3681,
                 "slow": 3024
             },
