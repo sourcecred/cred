@@ -20,7 +20,9 @@
       {"username": "wchargin", "aliases": ["github/wchargin", "discourse/wchargin"]},
       {"username": "nayafia", "aliases": ["github/nayafia", "discourse/nayafia"]},
       {"username": "vsoch", "aliases": ["github/vsoch", "discourse/vsoch"]},
-      {"username": "amico", "aliases": ["github/amico-dj", "discourse/amico"]}
+      {"username": "amico", "aliases": ["github/amico-dj", "discourse/amico"]},
+      {"username": "hammadj", "aliases": ["github/hammadj", "discourse/meta_dreamer"]},
+      {"username": "miyazono", "aliases": ["github/miyazono", "discourse/miyazono"]}
     ],
     "repoIds": [
       {
