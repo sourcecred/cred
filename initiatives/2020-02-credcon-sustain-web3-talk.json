@@ -1,0 +1,25 @@
+[
+  {
+    "type": "sourcecred/initiativeFile",
+    "version": "0.1.0"
+  },
+  {
+    "title": "CredCon: Sustain Web3 talk",
+    "timestampIso": "2020-02-10T10:00:00.000Z",
+    "weight": {
+      "incomplete": 1000,
+      "complete": 1000
+    },
+    "_fibonacciWeight": 5,
+    "completed": true,
+    "champions": [
+      "https://discourse.sourcecred.io/u/decentralion"
+    ],
+    "dependencies": [
+      "https://github.com/sourcecred/cred/tree/master/initiatives/2020-02-credcon.json",
+      "https://github.com/sourcecred/cred/tree/master/initiatives/2020-02-credcon-buidl-talk.json"
+    ],
+    "references": [],
+    "contributions": []
+  }
+]

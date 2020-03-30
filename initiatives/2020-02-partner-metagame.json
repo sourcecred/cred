@@ -1,0 +1,24 @@
+[
+  {
+    "type": "sourcecred/initiativeFile",
+    "version": "0.1.0"
+  },
+  {
+    "title": "Partner MetaGame",
+    "timestampIso": "2020-02-10T10:00:00.000Z",
+    "weight": {
+      "incomplete": 1600,
+      "complete": 1600
+    },
+    "_fibonacciWeight": 8,
+    "completed": false,
+    "champions": [
+      "https://github.com/hammadj"
+    ],
+    "dependencies": [
+      "https://github.com/sourcecred/cred/tree/master/initiatives/2020-02-credcon.json"
+    ],
+    "references": [],
+    "contributions": []
+  }
+]

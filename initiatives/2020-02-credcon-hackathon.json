@@ -1,0 +1,24 @@
+[
+  {
+    "type": "sourcecred/initiativeFile",
+    "version": "0.1.0"
+  },
+  {
+    "title": "CredCon: hackathon",
+    "timestampIso": "2020-02-10T10:00:00.000Z",
+    "weight": {
+      "incomplete": 600,
+      "complete": 600
+    },
+    "_fibonacciWeight": 3,
+    "completed": true,
+    "champions": [
+      "https://discourse.sourcecred.io/u/decentralion"
+    ],
+    "dependencies": [
+      "https://github.com/sourcecred/cred/tree/master/initiatives/2020-02-credcon.json"
+    ],
+    "references": [],
+    "contributions": []
+  }
+]

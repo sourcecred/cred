@@ -1,0 +1,22 @@
+[
+  {
+    "type": "sourcecred/initiativeFile",
+    "version": "0.1.0"
+  },
+  {
+    "title": "CredCon: lodging",
+    "timestampIso": "2020-02-10T10:00:00.000Z",
+    "weight": {
+      "incomplete": 1000,
+      "complete": 1000
+    },
+    "_fibonacciWeight": 5,
+    "completed": true,
+    "champions": [
+      "https://discourse.sourcecred.io/u/lb"
+    ],
+    "dependencies": [],
+    "references": [],
+    "contributions": []
+  }
+]
