@@ -1,0 +1,46 @@
+[
+  {
+    "type": "sourcecred/initiativeFile",
+    "version": "0.1.0"
+  },
+  {
+    "title": "Initial Documentation Push",
+    "timestampIso": "2020-04-01T10:00:00.000Z",
+    "weight": {
+      "incomplete": 200,
+      "complete": 1000
+    },
+    "completed": false,
+    "champions": [
+    ],
+    "dependencies": [
+    ],
+    "references": [
+      "https://github.com/sourcecred/docs/issues/5",
+      "https://discourse.sourcecred.io/t/creating-documentation-on-github-review-culture/582",
+      "https://discourse.sourcecred.io/t/documentation-glossary-and-wishlist/354",
+      "https://discourse.sourcecred.io/t/weekly-community-call-1-28-2020/605",
+      "https://discourse.sourcecred.io/t/weekly-community-call-1-14-2019/578",
+      "https://discourse.sourcecred.io/t/weekly-community-call-1-7-2020/572"
+    ],
+    "contributions": [
+      "https://github.com/sourcecred/docs/47",
+      "https://github.com/sourcecred/docs/46",
+      "https://github.com/sourcecred/docs/33",
+      "https://github.com/sourcecred/docs/30",
+      "https://github.com/sourcecred/docs/25",
+      "https://github.com/sourcecred/docs/24",
+      "https://github.com/sourcecred/docs/23",
+      "https://github.com/sourcecred/docs/22",
+      "https://github.com/sourcecred/docs/20",
+      "https://github.com/sourcecred/docs/19",
+      "https://github.com/sourcecred/docs/17",
+      "https://github.com/sourcecred/docs/13",
+      "https://github.com/sourcecred/docs/11",
+      "https://github.com/sourcecred/docs/10",
+      "https://github.com/sourcecred/docs/9",
+      "https://github.com/sourcecred/docs/2",
+      "https://github.com/sourcecred/docs/1"
+    ]
+  }
+]
