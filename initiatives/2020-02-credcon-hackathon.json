@@ -7,8 +7,8 @@
     "title": "CredCon: hackathon",
     "timestampIso": "2020-02-10T10:00:00.000Z",
     "weight": {
-      "incomplete": 600,
-      "complete": 600
+      "incomplete": 300,
+      "complete": 300
     },
     "_fibonacciWeight": 3,
     "completed": true,

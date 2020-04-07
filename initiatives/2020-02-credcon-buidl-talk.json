@@ -7,8 +7,8 @@
     "title": "CredCon: #BUIDL talk",
     "timestampIso": "2020-02-10T10:00:00.000Z",
     "weight": {
-      "incomplete": 400,
-      "complete": 400
+      "incomplete": 200,
+      "complete": 200
     },
     "_fibonacciWeight": 2,
     "completed": true,

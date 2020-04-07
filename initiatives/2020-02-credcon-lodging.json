@@ -7,8 +7,8 @@
     "title": "CredCon: lodging",
     "timestampIso": "2020-02-10T10:00:00.000Z",
     "weight": {
-      "incomplete": 1000,
-      "complete": 1000
+      "incomplete": 500,
+      "complete": 500
     },
     "_fibonacciWeight": 5,
     "completed": true,

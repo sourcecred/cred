@@ -7,8 +7,8 @@
     "title": "Partner MetaGame",
     "timestampIso": "2020-02-10T10:00:00.000Z",
     "weight": {
-      "incomplete": 1600,
-      "complete": 1600
+      "incomplete": 800,
+      "complete": 800
     },
     "_fibonacciWeight": 8,
     "completed": false,
