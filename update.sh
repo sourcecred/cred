@@ -4,6 +4,7 @@ set -eu
 
 rm -rf ./docs
 PATH_TO_THIS_REPOSITORY="$(pwd)"
+export SOURCECRED_INITIATIVES_DIRECTORY=${PATH_TO_THIS_REPOSITORY}/initiatives
 cd $sc
 ./scripts/build_static_site.sh \
   --target "$PATH_TO_THIS_REPOSITORY/docs"  \

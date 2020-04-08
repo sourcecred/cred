@@ -1,9 +1,12 @@
 [
   {
     "type": "sourcecred/project",
-    "version": "0.4.0"
+    "version": "0.5.0"
   },
   {
+    "initiatives": {
+      "remoteUrl": "https://github.com/sourcecred/cred/tree/master/initiatives"
+    },
     "discourseServer": {
       "serverUrl": "https://discourse.sourcecred.io"
     },
