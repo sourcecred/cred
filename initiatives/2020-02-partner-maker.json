@@ -1,0 +1,22 @@
+[
+  {
+    "type": "sourcecred/initiativeFile",
+    "version": "0.1.0"
+  },
+  {
+    "title": "Partner Maker",
+    "timestampIso": "2020-02-10T10:00:00.000Z",
+    "weight": {
+      "incomplete": 800,
+      "complete": 800
+    },
+    "_fibonacciWeight": 8,
+    "completed": false,
+    "champions": [
+      "https://discourse.sourcecred.io/u/s_ben"
+    ],
+    "dependencies": [],
+    "references": [],
+    "contributions": []
+  }
+]
