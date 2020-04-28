@@ -25,7 +25,9 @@
       {"username": "vsoch", "aliases": ["github/vsoch", "discourse/vsoch"]},
       {"username": "amico", "aliases": ["github/amico-dj", "discourse/amico"]},
       {"username": "hammadj", "aliases": ["github/hammadj", "discourse/meta_dreamer"]},
-      {"username": "miyazono", "aliases": ["github/miyazono", "discourse/miyazono"]}
+      {"username": "miyazono", "aliases": ["github/miyazono", "discourse/miyazono"]},
+      {"username": "LB", "aliases": ["github/LexBirdie", "discourse/LB"]},
+      {"username": "Bex", "aliases": ["github/Bex2594", "discourse/Bex", "discourse/Bex2594"]}
     ],
     "repoIds": [
       {
