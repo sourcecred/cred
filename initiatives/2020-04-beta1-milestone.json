@@ -1,0 +1,52 @@
+[
+  {
+    "type": "sourcecred/initiativeFile",
+    "version": "0.2.0"
+  },
+  {
+    "title": "Release SourceCred beta.1",
+    "timestampIso": "2020-04-14T00:00:00.000Z",
+    "weight": { "incomplete": 0, "complete": 0 },
+    "completed": false,
+    "champions": [],
+    "dependencies": {
+      "entries": [
+        { "title": "Placeholder: Create a scaffolding for Docs" },
+        { "title": "Placeholder: Create the Initiatives plugin" },
+        { "title": "Placeholder: Create the Discord plugin" },
+        { "title": "Placeholder: Write the initial Intro section of the Docs" },
+        { "title": "Placeholder: Write the initial Concepts section of the Docs" },
+        { "title": "Placeholder: Create the Grain ledger" },
+        { "title": "Placeholder: Write the initial Guides section of the Docs" },
+        { "title": "Placeholder: Create visual language for beta Docs" },
+        { "title": "Placeholder: Quality of Life for instance maintainers initiative" },
+        { "title": "Placeholder: Create a Grain UI" },
+        { "title": "Placeholder: Write the initial Setup and Usage section of the Docs" },
+        { "title": "Placeholder: Create a data format to answer Cred questions with" },
+        { "title": "Placeholder: Beta.1 polish week initiative" }
+      ]
+    },
+    "contributions": {
+      "entries": [
+        {
+          "title": "[SourceCred beta.1](https://roamresearch.com/#/app/SourceCred/page/MJtfaaIhK) roam notes",
+          "contributors": [
+            "https://discourse.sourcecred.io/u/decentralion",
+            "https://discourse.sourcecred.io/u/lb",
+            "https://discourse.sourcecred.io/u/Beanow"
+          ],
+          "weight": null
+        },
+        {
+          "title": "Discord calls planning beta.1's roadmap",
+          "contributors": [
+            "https://discourse.sourcecred.io/u/decentralion",
+            "https://discourse.sourcecred.io/u/lb",
+            "https://discourse.sourcecred.io/u/Beanow"
+          ],
+          "weight": null
+        },
+      ]
+    }
+  }
+]
