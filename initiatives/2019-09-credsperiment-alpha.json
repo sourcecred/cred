@@ -1,0 +1,67 @@
+[
+  {
+    "type": "sourcecred/initiativeFile",
+    "version": "0.2.0"
+  },
+  {
+    "title": "CredSperiment Alpha",
+    "timestampIso": "2019-09-15T00:00:00.000Z",
+    "weight": { "incomplete": 0, "complete": 0 },
+    "completed": false,
+    "champions": ["https://discourse.sourcecred.io/u/decentralion"],
+    "dependencies": {
+      "urls": [
+        "https://discourse.sourcecred.io/t/create-identity-plugin/662",
+        "https://discourse.sourcecred.io/t/create-discourse-plugin/660"
+      ],
+      "entries": [
+        { "title": "Placeholder: Create GitHub plugin" },
+        { "title": "Placeholder: Create Scores API" },
+        { "title": "Placeholder: Develop the Grain concept" }
+      ]
+    },
+    "contributions": {
+      "entries": [
+        {
+          "title": "Placeholder: Create the initial fast/slow distribution strategies"
+        },
+        {
+          "title": "Create the distribution observable notebooks",
+          "contributors": ["https://discourse.sourcecred.io/u/decentralion"],
+          "weight": null
+        },
+        {
+          "title": "Securing Protocol Labs sponsorship",
+          "contributors": [
+            "https://discourse.sourcecred.io/u/decentralion",
+            "https://discourse.sourcecred.io/u/protocol"
+          ],
+          "weight": null
+        },
+        {
+          "title": "Coordinating as Grain buyers",
+          "contributors": [
+            "https://discourse.sourcecred.io/u/decentralion",
+            "https://discourse.sourcecred.io/u/protocol",
+            "https://discourse.sourcecred.io/u/amico"
+          ],
+          "weight": null
+        },
+        {
+          "title": "Manually tracking transactions",
+          "contributors": ["https://discourse.sourcecred.io/u/decentralion"],
+          "weight": null
+        },
+        {
+          "title": "Manually tracking distributions",
+          "contributors": ["https://discourse.sourcecred.io/u/decentralion"],
+          "weight": null
+        }
+      ],
+      "urls": [
+        "https://discourse.sourcecred.io/t/sourcecred-contributor-payouts/298",
+        "https://discourse.sourcecred.io/t/introducing-the-credsperiment/183"
+      ]
+    }
+  }
+]
