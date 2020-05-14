@@ -1,0 +1,42 @@
+[
+  {
+    "type": "sourcecred/initiativeFile",
+    "version": "0.2.0"
+  },
+  {
+    "title": "Community call 2020-01-21",
+    "timestampIso": "2020-01-21T11:00:00.000-07:00",
+    "weight": { "incomplete": 0, "complete": 0 },
+    "completed": true,
+    "champions": ["https://discourse.sourcecred.io/u/s_ben"],
+    "contributions": {
+      "entries": [
+        {
+          "title": "Took [call notes](https://discourse.sourcecred.io/t/weekly-community-call-1-21-2020/581/1)",
+          "contributors": ["https://discourse.sourcecred.io/u/s_ben"],
+          "weight": 50
+        },
+        {
+          "title": "Published [call recording](https://drive.google.com/file/d/1WxF8gx6q1rLmZ7f4GUsPLzxK-b_QRDJE/view?usp=sharing)",
+          "contributors": ["https://discourse.sourcecred.io/u/s_ben"],
+          "weight": 50
+        },
+        {
+          "title": "Participated in call",
+          "weight": 180,
+          "contributors": [
+            "https://discourse.sourcecred.io/u/decentralion",
+            "https://discourse.sourcecred.io/u/brianlitwin",
+            "https://discourse.sourcecred.io/u/beanow",
+            "https://discourse.sourcecred.io/u/lb",
+            "https://discourse.sourcecred.io/u/miyazono",
+            "https://discourse.sourcecred.io/u/Bex",
+            "https://discourse.sourcecred.io/u/vsoch",
+            "https://discourse.sourcecred.io/u/ianjdarrow",
+            "https://discourse.sourcecred.io/u/s_ben"
+          ]
+        }
+      ]
+    }
+  }
+]

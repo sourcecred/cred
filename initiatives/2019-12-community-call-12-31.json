@@ -1,0 +1,37 @@
+[
+  {
+    "type": "sourcecred/initiativeFile",
+    "version": "0.2.0"
+  },
+  {
+    "title": "Community call 2019-12-31",
+    "timestampIso": "2019-12-31T11:00:00.000-07:00",
+    "weight": { "incomplete": 0, "complete": 0 },
+    "completed": true,
+    "champions": ["https://discourse.sourcecred.io/u/s_ben"],
+    "contributions": {
+      "entries": [
+        {
+          "title": "Took [call notes](https://discourse.sourcecred.io/t/weekly-community-call-12-31-2019/571/1)",
+          "contributors": ["https://discourse.sourcecred.io/u/s_ben"],
+          "weight": 50
+        },
+        {
+          "title": "Published [call recording](https://drive.google.com/file/d/19ShNpsKxEUMt7KL3kVlwCLIAbSwMc2ai/view?usp=sharing)",
+          "contributors": ["https://discourse.sourcecred.io/u/s_ben"],
+          "weight": 50
+        },
+        {
+          "title": "Participated in call",
+          "weight": 80,
+          "contributors": [
+            "https://discourse.sourcecred.io/u/decentralion",
+            "https://discourse.sourcecred.io/u/brianlitwin",
+            "https://discourse.sourcecred.io/u/lb",
+            "https://discourse.sourcecred.io/u/s_ben"
+          ]
+        }
+      ]
+    }
+  }
+]
