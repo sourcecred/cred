@@ -6,7 +6,7 @@
   {
     "title": "Community call 2019-10-29",
     "timestampIso": "2019-10-29T11:00:00.000-07:00",
-    "weight": { "incomplete": 0, "complete": 100 },
+    "weight": { "incomplete": 0, "complete": 0 },
     "completed": true,
     "champions": ["https://discourse.sourcecred.io/u/s_ben"],
     "contributions": {
@@ -23,6 +23,7 @@
         },
         {
           "title": "Participated in call",
+          "weight": 120,
           "contributors": [
             "https://discourse.sourcecred.io/u/decentralion",
             "https://discourse.sourcecred.io/u/lb",
