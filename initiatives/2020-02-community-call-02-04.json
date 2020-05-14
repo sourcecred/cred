@@ -8,18 +8,18 @@
     "timestampIso": "2020-02-04T11:00:00.000-07:00",
     "weight": { "incomplete": 0, "complete": 0 },
     "completed": true,
-    "champions": ["https://discourse.sourcecred.io/u/s_ben"],
+    "champions": [],
     "contributions": {
       "entries": [
         {
           "title": "Took [call notes](https://discourse.sourcecred.io/t/weekly-community-call-2-4-2020/627/1)",
           "contributors": ["https://discourse.sourcecred.io/u/s_ben"],
-          "weight": 50
+          "weight": 20
         },
         {
           "title": "Published [call recording](https://drive.google.com/file/d/1-G3j1OEgYyW5ZUVrORgAeuXIQfYjprkq/view?usp=sharing)",
           "contributors": ["https://discourse.sourcecred.io/u/s_ben"],
-          "weight": 50
+          "weight": 20
         },
         {
           "title": "Participated in call",

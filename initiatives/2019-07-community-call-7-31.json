@@ -8,13 +8,13 @@
     "timestampIso": "2019-07-31T11:00:00.000-07:00",
     "weight": { "incomplete": 0, "complete": 0 },
     "completed": true,
-    "champions": ["https://discourse.sourcecred.io/u/s_ben"],
+    "champions": [],
     "contributions": {
       "entries": [
         {
           "title": "Took [call notes](https://discourse.sourcecred.io/t/sc-office-hours-recap-7-31-2019/141/1)",
           "contributors": ["https://discourse.sourcecred.io/u/s_ben"],
-          "weight": 50
+          "weight": 20
         },
         {
           "title": "Participated in call",

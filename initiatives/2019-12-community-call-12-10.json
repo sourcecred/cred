@@ -8,18 +8,18 @@
     "timestampIso": "2019-12-10T11:00:00.000-07:00",
     "weight": { "incomplete": 0, "complete": 0 },
     "completed": true,
-    "champions": ["https://discourse.sourcecred.io/u/s_ben"],
+    "champions": [],
     "contributions": {
       "entries": [
         {
           "title": "Took [call notes](https://discourse.sourcecred.io/t/community-call-12-10-2019-notes-recording/412/1)",
           "contributors": ["https://discourse.sourcecred.io/u/s_ben"],
-          "weight": 50
+          "weight": 20
         },
         {
           "title": "Published [call recording](https://drive.google.com/file/d/15N_rvQs9Z8S5WgeI557mvwnKXukEi5ml/view?usp=sharing)",
           "contributors": ["https://discourse.sourcecred.io/u/s_ben"],
-          "weight": 50
+          "weight": 20
         },
         {
           "title": "Participated in call",
