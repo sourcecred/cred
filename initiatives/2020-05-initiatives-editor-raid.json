@@ -1,0 +1,49 @@
+[
+  {
+    "type": "sourcecred/initiativeFile",
+    "version": "0.2.0"
+  },
+  {
+    "title": "Initiatives Editor Raid",
+    "timestampIso": "2020-05-27T10:00:00.000Z",
+    "weight": {
+      "incomplete": 0,
+      "complete": 0
+    },
+    "completed": false,
+    "champions": [],
+    "dependencies": {},
+    "references": {
+      "urls": ["https://github.com/sourcecred/admin-dashboard"]
+    },
+    "contributions": {
+      "entries": [
+        {
+          "weight": 5,
+          "title": "Initial Meeting",
+          "timestampIso": "2020-05-26T07:00:00.000Z",
+          "contributors": [
+            "https://github.com/oovg",
+            "https://github.com/hammadj",
+            "https://github.com/YalorMewn",
+            "https://github.com/Beanow",
+            "https://github.com/dandelion",
+            "https://github.com/KamesCG",
+            "https://github.com/topocount"
+          ]
+        },
+        {
+          "weight": 3,
+          "title": "Meeting to Define Deliverables",
+          "timestampIso": "2020-05-27T07:00:00.000Z",
+          "contributors": [
+            "https://github.com/oovg",
+            "https://github.com/hammadj",
+            "https://github.com/YalorMewn",
+            "https://github.com/topocount"
+          ]
+        }
+      ]
+    }
+  }
+]
