@@ -1,7 +1,7 @@
 [
   {
     "type": "sourcecred/project",
-    "version": "0.5.0"
+    "version": "0.5.2"
   },
   {
     "initiatives": {
@@ -12,24 +12,28 @@
     },
     "id": "@sourcecred",
     "identities": [
-      {"username": "decentralion", "aliases": ["github/decentralion", "discourse/decentralion"]},
-      {"username": "Beanow", "aliases": ["github/Beanow", "discourse/Beanow"]},
-      {"username": "BrianLitwin", "aliases": ["github/BrianLitwin", "discourse/brianlitwin"]},
-      {"username": "mzargham", "aliases": ["github/mzargham", "discourse/mzargham"]},
-      {"username": "s_ben", "aliases": ["github/s-ben", "discourse/s_ben"]},
+      {"username": "decentralion", "aliases": ["github/decentralion", "discourse/decentralion", "discord/420341518948237331"]},
+      {"username": "Beanow", "aliases": ["github/Beanow", "discourse/Beanow", "discord/143776454050709505"]},
+      {"username": "BrianLitwin", "aliases": ["github/BrianLitwin", "discourse/brianlitwin", "discord/439050857921904640"]},
+      {"username": "mzargham", "aliases": ["github/mzargham", "discourse/mzargham", "discord/250086586450968576"]},
+      {"username": "s_ben", "aliases": ["github/s-ben", "discourse/s_ben", "discord/427964041764274177"]},
       {"username": "ryanMorton", "aliases": ["github/mortonanalytics", "discourse/ryanMorton"]},
       {"username": "ericronne", "aliases": ["github/ericronne", "discourse/ericronne"]},
       {"username": "zixuanzh", "aliases": ["github/zixuanzh", "discourse/zixuanzh"]},
-      {"username": "wchargin", "aliases": ["github/wchargin", "discourse/wchargin"]},
+      {"username": "wchargin", "aliases": ["github/wchargin", "discourse/wchargin", "discord/432981598858903585"]},
       {"username": "nayafia", "aliases": ["github/nayafia", "discourse/nayafia"]},
-      {"username": "vsoch", "aliases": ["github/vsoch", "discourse/vsoch"]},
-      {"username": "amico", "aliases": ["github/amico-dj", "discourse/amico"]},
-      {"username": "hammadj", "aliases": ["github/hammadj", "discourse/meta_dreamer"]},
-      {"username": "miyazono", "aliases": ["github/miyazono", "discourse/miyazono"]},
-      {"username": "LB", "aliases": ["github/LexBirdie", "discourse/LB"]},
-      {"username": "Bex", "aliases": ["github/Bex2594", "discourse/Bex", "discourse/Bex2594"]},
-      {"username": "burrrata", "aliases": ["github/burrrata", "discourse/burrrata"]}
+      {"username": "vsoch", "aliases": ["github/vsoch", "discourse/vsoch", "discord/392845208691408907"]},
+      {"username": "amico", "aliases": ["github/amico-dj", "discourse/amico", "discord/601740474709180424"]},
+      {"username": "hammadj", "aliases": ["github/hammadj", "discourse/meta_dreamer", "discord/118260545211072517"]},
+      {"username": "miyazono", "aliases": ["github/miyazono", "discourse/miyazono", "discord/456875151745613848", "discord/582347783848067108"]},
+      {"username": "LB", "aliases": ["github/LexBirdie", "discourse/LB", "discord/633708951447535616"]},
+      {"username": "Bex", "aliases": ["github/Bex2594", "discourse/Bex", "discourse/Bex2594", "discord/633712303556132865"]},
+      {"username": "burrrata", "aliases": ["github/burrrata", "discourse/burrrata", "discord/657069807505637397"]}
     ],
+    "discord": {
+      "guildId": "453243919774253079",
+      "reactionWeights": {"sourcecred:626763367893303303": 16, "💯": 8, "👍": 4}
+    },
     "repoIds": [
       {
         "name": "sourcecred",
