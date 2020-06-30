@@ -1,0 +1,144 @@
+[
+  {
+    "type": "sourcecred/initiativeFile",
+    "version": "0.2.0"
+  },
+  {
+    "title": "Initiatives Editor Raid",
+    "timestampIso": "2020-05-27T10:00:00.000Z",
+    "weight": {
+      "incomplete": 0,
+      "complete": 0
+    },
+    "completed": false,
+    "champions": [],
+    "dependencies": {},
+    "references": {},
+    "contributions": {
+      "urls": [
+        "https://github.com/sourcecred/sourcecred/pull/1851",
+        "https://github.com/sourcecred/sourcecred/pull/1860",
+        "https://github.com/sourcecred/sourcecred/pull/1861",
+        "https://github.com/sourcecred/sourcecred/pull/1862",
+        "https://github.com/sourcecred/sourcecred/pull/1864",
+        "https://github.com/sourcecred/sourcecred/pull/1865",
+        "https://github.com/sourcecred/sourcecred/pull/1866",
+        "https://github.com/sourcecred/sourcecred/pull/1889",
+        "https://github.com/sourcecred/sourcecred/pull/1901",
+        "https://github.com/sourcecred/sourcecred/pull/1888"
+      ],
+      "entries": [
+        {
+          "weight": 32,
+          "title": "Initial Meeting",
+          "timestampIso": "2020-05-26T07:00:00.000Z",
+          "contributors": [
+            "https://github.com/oovg",
+            "https://github.com/hammadj",
+            "https://github.com/YalorMewn",
+            "https://github.com/Beanow",
+            "https://github.com/dandelion",
+            "https://github.com/KamesCG",
+            "https://github.com/topocount"
+          ]
+        },
+        {
+          "weight": 32,
+          "title": "Meeting to Define Deliverables",
+          "timestampIso": "2020-05-27T07:00:00.000Z",
+          "contributors": [
+            "https://github.com/oovg",
+            "https://github.com/hammadj",
+            "https://github.com/YalorMewn",
+            "https://github.com/topocount"
+          ]
+        },
+        {
+          "weight": 32,
+          "title": "Week 1 Scrum",
+          "timestampIso": "2020-06-01T07:00:00.000Z",
+          "contributors": [
+            "https://github.com/topocount",
+            "https://github.com/hammadj",
+            "https://github.com/YalorMewn",
+            "https://github.com/decentralion"
+          ]
+        },
+        {
+          "weight": 32,
+          "title": "Week 2 Scrum",
+          "timestampIso": "2020-06-08T07:00:00.000Z",
+          "contributors": [
+            "https://github.com/topocount",
+            "https://github.com/hammadj",
+            "https://github.com/YalorMewn",
+            "https://github.com/decentralion"
+          ]
+        },
+        {
+          "weight": 32,
+          "title": "Week 3 Scrum",
+          "timestampIso": "2020-06-15T07:00:00.000Z",
+          "contributors": [
+            "https://github.com/topocount",
+            "https://github.com/hammadj",
+            "https://github.com/YalorMewn",
+            "https://github.com/decentralion"
+          ]
+        },
+        {
+          "weight": 32,
+          "title": "Week 4 Scrum",
+          "timestampIso": "2020-06-22T07:00:00.000Z",
+          "contributors": [
+            "https://github.com/topocount",
+            "https://github.com/hammadj",
+            "https://github.com/YalorMewn",
+            "https://github.com/decentralion"
+          ]
+        },
+        {
+          "weight": 128,
+          "title": "Initital Initiatives Editor Prototype w/ React Admin",
+          "timestampIso": "2020-06-11T07:00:00.000Z",
+          "contributors": [
+            "https://github.com/topocount"
+          ]
+        },
+        {
+          "weight": 64,
+          "title": "Integration Strategy Meeting",
+          "timestampIso": "2020-06-27T07:00:00.000Z",
+          "contributors": [
+            "https://github.com/topocount",
+            "https://github.com/wchargin",
+            "https://github.com/hammadj",
+            "https://github.com/decentralion"
+          ]
+        },
+        {
+          "weight": 96,
+          "title": "Initiatives Editor UX / Data Structures Jam",
+          "timestampIso": "2020-06-29T07:00:00.000Z",
+          "contributors": [
+            "https://github.com/hammadj",
+            "https://github.com/topocount",
+            "https://github.com/decentralion",
+            "https://github.com/wchargin",
+            "https://github.com/LexBirdie"
+          ]
+        },
+        {
+          "weight": 64,
+          "title": "Expectation / Strategy Sync",
+          "timestampIso": "2020-06-30T07:00:00.000Z",
+          "contributors": [
+            "https://github.com/hammadj",
+            "https://github.com/YalorMewn",
+            "https://github.com/decentralion"
+          ]
+        }
+      ]
+    }
+  }
+]
