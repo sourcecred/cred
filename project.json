@@ -28,7 +28,8 @@
       {"username": "miyazono", "aliases": ["github/miyazono", "discourse/miyazono", "discord/456875151745613848", "discord/582347783848067108"]},
       {"username": "LB", "aliases": ["github/LexBirdie", "discourse/LB", "discord/633708951447535616"]},
       {"username": "Bex", "aliases": ["github/Bex2594", "discourse/Bex", "discourse/Bex2594", "discord/633712303556132865"]},
-      {"username": "burrrata", "aliases": ["github/burrrata", "discourse/burrrata", "discord/657069807505637397"]}
+      {"username": "burrrata", "aliases": ["github/burrrata", "discourse/burrrata", "discord/657069807505637397"]},
+      {"username": "topocount", "aliases": ["github/topocount", "discord/489154203714060300"]}
     ],
     "discord": {
       "guildId": "453243919774253079",
