@@ -31,7 +31,8 @@
       {"username": "burrrata", "aliases": ["github/burrrata", "discourse/burrrata", "discord/657069807505637397"]},
       {"username": "topocount", "aliases": ["github/topocount", "discord/489154203714060300"]},
       {"username": "Yalor", "aliases": ["github/YalorMewn", "discord/360481131029856256", "discourse/YalorMewn"]},
-      {"username": "PhilKarl", "aliases": ["github/pk-controller", "discourse/tables"]}
+      {"username": "PhilKarl", "aliases": ["github/pk-controller", "discourse/tables"]},
+      {"username": "benoxmo", "aliases": ["discourse/benoxmo", "discord/606105191690797056", "github/benoxmo"]}
     ],
     "discord": {
       "guildId": "453243919774253079",
