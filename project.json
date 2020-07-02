@@ -33,7 +33,10 @@
       {"username": "Yalor", "aliases": ["github/YalorMewn", "discord/360481131029856256", "discourse/YalorMewn"]},
       {"username": "PhilKarl", "aliases": ["github/pk-controller", "discourse/tables"]},
       {"username": "benoxmo", "aliases": ["discourse/benoxmo", "discord/606105191690797056", "github/benoxmo"]},
-      {"username": "rpp", "aliases": ["discourse/rpp63", "discord/582405246781751297"]}
+      {"username": "rpp", "aliases": ["discourse/rpp63", "discord/582405246781751297"]},
+      {"username": "pet3rpan", "aliases": ["discord/443527705250758696"]},
+      {"username": "YoungKidWarrior", "aliases": ["discord/683892894767251489"]},
+      {"username": "SourceCred", "aliases": []}
     ],
     "discord": {
       "guildId": "453243919774253079",
