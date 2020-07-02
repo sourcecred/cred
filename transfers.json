@@ -52,6 +52,24 @@
         "https://github.com/sourcecred/cred/pull/45",
         "https://observablehq.com/@decentralion/credsperiment-week-31"
       ]
+    },
+    {
+      "from": "sourcecred/@pet3rpan",
+      "to": "sourcecred/@SourceCred",
+      "amount": 1000,
+      "timestamp": 1593648956677,
+      "references": [
+        "https://etherscan.io/tx/0xaf0f75c0ddfd7c2e59e8d6c2eecac58dd0482c59095925154c81905342c7df90"
+      ]
+    },
+    {
+      "from": "sourcecred/@YoungKidWarrior",
+      "to": "sourcecred/@SourceCred",
+      "amount": 12700,
+      "timestamp": 1593648956677,
+      "references": [
+        "https://etherscan.io/tx/0xd8f0a64e1722d2076485048bbd608c9f6feeba7c1aaa503395382d03a59d0d4c"
+      ]
     }
   ]
 ]
