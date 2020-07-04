@@ -70,6 +70,15 @@
       "references": [
         "https://etherscan.io/tx/0xd8f0a64e1722d2076485048bbd608c9f6feeba7c1aaa503395382d03a59d0d4c"
       ]
+    },
+    {
+      "from": "sourcecred/@s_ben",
+      "to": "sourcecred/@protocol",
+      "amount": 900000,
+      "timestamp": 1593739569000,
+      "references": [
+        "https://etherscan.io/tx/0x439fd45f47f4b263d0294e0dab4b3cc53202631adc5e646321694ab4ee4b476b"
+      ]
     }
   ]
 ]
