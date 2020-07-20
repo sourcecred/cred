@@ -79,6 +79,15 @@
       "references": [
         "https://etherscan.io/tx/0x439fd45f47f4b263d0294e0dab4b3cc53202631adc5e646321694ab4ee4b476b"
       ]
+    },
+    {
+      "from": "sourcecred/@Yalor",
+      "to": "sourcecred/@SourceCred",
+      "amount": 60000,
+      "timestamp": 1595276055058,
+      "references": [
+        "https://etherscan.io/tx/0xbcc33889d46d714485c7243ceaabe1539b5f4cfc3aa1e7439e3f9e0942885dfc"
+      ]
     }
   ]
 ]
