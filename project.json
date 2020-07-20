@@ -36,7 +36,8 @@
       {"username": "rpp", "aliases": ["discourse/rpp63", "discord/582405246781751297"]},
       {"username": "pet3rpan", "aliases": ["discord/443527705250758696"]},
       {"username": "YoungKidWarrior", "aliases": ["discord/683892894767251489"]},
-      {"username": "SourceCred", "aliases": []}
+      {"username": "SourceCred", "aliases": []},
+      {"username": "protocol", "aliases": ["discourse/protocol"]}
     ],
     "discord": {
       "guildId": "453243919774253079",
