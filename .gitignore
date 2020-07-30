@@ -1,3 +1,7 @@
-./site/
-./output/
-./cache/
+site/
+output/
+cache/
+favicon.png
+index.html
+static
+
