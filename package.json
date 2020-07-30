@@ -1,0 +1,24 @@
+{
+  "name": "cred",
+  "version": "0.1.0",
+  "description": "SourceCred's Own Cred Instance",
+  "repository": "git@github.com:sourcecred/cred.git",
+  "author": "SourceCred Team <contact@sourcecred.io>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "sourcecred": "0.7.0-beta-5"
+  },
+  "scripts": {
+    "clean": "rimraf cache site",
+    "clean-all": "yarn clean && rimraf output",
+    "load": "sourcecred load",
+    "graph": "sourcecred graph",
+    "score": "sourcecred score",
+    "site": "sourcecred site",
+    "serve": "npx serve site -l 6006"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  }
+}
