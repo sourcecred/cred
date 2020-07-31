@@ -16,7 +16,7 @@
     "graph": "sourcecred graph",
     "score": "sourcecred score",
     "site": "sourcecred site",
-    "serve": "npx serve site -l 6006"
+    "serve": "sourcecred admin"
   },
   "devDependencies": {
     "rimraf": "^3.0.2"
