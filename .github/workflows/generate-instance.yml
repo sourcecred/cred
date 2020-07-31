@@ -44,9 +44,6 @@ jobs:
           cp -rf ./config ./site
           cp -f ./sourcecred.json ./site
 
-      - name: Copy CNAME if exists
-        run: '(test -f CNAME && cp ./CNAME ./site) || echo CNAME does not exist, skipping step'
-
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.5.7
         with:
