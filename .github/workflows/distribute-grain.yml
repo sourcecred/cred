@@ -13,14 +13,13 @@ jobs:
         with:
           persist-credentials: false # Required to make github pages deployment work correctly
 
-
       # We load the cache data so we can explicitly clear and re-generate it
       # This ensures the cache is purged weekly, and ensures that future runs will use the same
       # cache that was used to distribute Grain.
       - name: Cache Data
         uses: actions/cache@v2
         with:
-          path: '**/cache'
+          path: "**/cache"
           key: SC-${{ runner.os }}-${{ hashFiles('**/config.json', '**/sourcecred.json', '**/yarn.lock') }}
 
       - name: Install Packages 🔧
@@ -44,8 +43,11 @@ jobs:
       - name: Distribute Grain 💸
         run: yarn grain
 
-      # TODO (not ready for merge):
-      # Need to commit the updated data/ledger.json to master!
+      - name: Commit Ledger 💾
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: auto-update ledger
+          file_pattern: data/ledger.json
 
       - name: Generate Frontend 🏗
         run: |
