@@ -1,9 +1,13 @@
 name: Distribute Grain
 on:
+  # test config do not merge like this
+  push:
+    branches:
+      - "grain-distribution-test" # contain runs to interactions this branch
   # A new Cred interval every Sunday. We'll distribute Grain 5 minutes
   # after the new interval
-  schedule:
-    - cron: 5 0 * * 0
+  #schedule:
+  # - cron: 5 0 * * 0
 
 jobs:
   GenerateCredInstance:
@@ -54,10 +58,11 @@ jobs:
           yarn site
           rm -rf ./site/{output,data,config,sourcecred.json}
           cp -r ./{output,data,config,sourcecred.json} ./site/
-
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@3.5.7
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: site
+      # do not deploy test results since
+      # instance state needs to be modified for testing
+      #- name: Deploy 🚀
+      #  uses: JamesIves/github-pages-deploy-action@3.5.7
+      #  with:
+      #    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #    BRANCH: gh-pages
+      #    FOLDER: site
