@@ -397,6 +397,11 @@ better-sqlite3@^7.0.0:
     prebuild-install "^5.3.3"
     tar "4.4.10"
 
+big-integer@^1.6.48:
+  version "1.6.48"
+  resolved "https://registry.yarnpkg.com/big-integer/-/big-integer-1.6.48.tgz#8fd88bd1632cba4a1c8c3e3d7159f08bb95b4b9e"
+  integrity sha512-j51egjPa7/i+RdiRuJbPdJ2FIUYYPhvYLjzoYbcMMm62ooO6F94fETG4MTs46zPAF9Brs04OajboA/qTGuz78w==
+
 big.js@^3.1.3:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/big.js/-/big.js-3.2.0.tgz#a5fc298b81b9e0dca2e458824784b65c52ba588e"
@@ -2629,15 +2634,16 @@ source-map@^0.6.1:
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
 
-sourcecred@0.7.0-beta-5:
-  version "0.7.0-beta-5"
-  resolved "https://registry.yarnpkg.com/sourcecred/-/sourcecred-0.7.0-beta-5.tgz#b3fbc4524c1c16b577fb45d4892fd0dd1328a8a3"
-  integrity sha512-pHK5LkqJRFMV8W1NDgw4kL3mc+ii+d/7LdytvviP77mXVbN7a+GyVJNXWx3KC1IRB7AX/FCSTwJwcTef6Z6arw==
+sourcecred@0.7.0-beta-6:
+  version "0.7.0-beta-6"
+  resolved "https://registry.yarnpkg.com/sourcecred/-/sourcecred-0.7.0-beta-6.tgz#43f7b4a410cddb73430eec3e6e8b20ad8fb6b351"
+  integrity sha512-JMoMbmgh+BCxlKoDmAnu55ie7QuFE1BU+taZJkzlNZ2CUQdpynMjH/BPAD/snNurAbkU6U8SB07KRr0XbWZ8yw==
   dependencies:
     aphrodite "^2.4.0"
     base-64 "^0.1.0"
     base64url "^3.0.1"
     better-sqlite3 "^7.0.0"
+    big-integer "^1.6.48"
     bottleneck "^2.19.5"
     chalk "^4.0.0"
     commonmark "^0.29.1"
