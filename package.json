@@ -16,7 +16,8 @@
     "graph": "sourcecred graph",
     "score": "sourcecred score",
     "site": "sourcecred site",
-    "serve": "sourcecred admin"
+    "serve": "sourcecred admin",
+    "grain": "sourcecred grain"
   },
   "devDependencies": {
     "rimraf": "^3.0.2"
