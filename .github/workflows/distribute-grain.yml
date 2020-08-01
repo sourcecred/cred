@@ -3,31 +3,24 @@ on:
   # A new Cred interval every Sunday. We'll distribute Grain 5 minutes
   # after the new interval
   schedule:
-    - cron: 5 0 * * 0
+    - cron: 5 0 * * 0 # 00:05 UTC, 16:05 PST
+  push:
+    branches:
+      - "graintest-*"
 
 jobs:
-  GenerateCredInstance:
+  distribute-grain:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
           persist-credentials: false # Required to make github pages deployment work correctly
 
-      # We load the cache data so we can explicitly clear and re-generate it
-      # This ensures the cache is purged weekly, and ensures that future runs will use the same
-      # cache that was used to distribute Grain.
-      - name: Cache Data
-        uses: actions/cache@v2
-        with:
-          path: "**/cache"
-          key: SC-${{ runner.os }}-${{ hashFiles('**/config.json', '**/sourcecred.json', '**/yarn.lock') }}
+      - name: "Debug: check event name"
+        run: echo ${{ github.event_name }}
 
       - name: Install Packages 🔧
         run: yarn --frozen-lockfile
-
-      - name: Clean the Cache 🧼
-        run: |
-          yarn clean-all
 
       - name: Load Data into Graph 🔌
         run: |
@@ -57,6 +50,7 @@ jobs:
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.5.7
+        if: "${{ github.event_name == 'schedule' }}"
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
