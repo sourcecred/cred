@@ -36,6 +36,9 @@ jobs:
       - uses: actions/checkout@v2
         with:
           persist-credentials: false # Required to make github pages deployment work correctly
+      
+      - name: Check HEAD
+        run: git log -1
 
       - name: Generate Frontend 🏗
         run: |
