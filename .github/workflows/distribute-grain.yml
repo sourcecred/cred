@@ -29,7 +29,6 @@ jobs:
           git config user.email 'credbot@users.noreply.github.com'
           git add data/ledger.json
           git commit --allow-empty -m 'Auto-update ledger'
-          echo '::set-env name=INPUT_REF::$(git rev-parse HEAD)'
 
       - name: Push Ledger
         run: git push
@@ -49,9 +48,9 @@ jobs:
           repository: "sourcecred/cred"
           persist-credentials: false
       
-      - name: Check HEAD
+      - name: Get Latest HEAD # checkout only re-checks out the ref from the trigger
         run: |
-          git pull
+          git pull --ff-only origin $(git rev-parse --abbrev-ref HEAD)
           git log -1
 
       - name: Generate Frontend 🏗
