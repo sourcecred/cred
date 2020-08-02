@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          persist-credentials: false # Required to make github pages deployment work correctly
+          path: calc
 
       - name: "[debug] Check GitHub event name"
         # This is used to determine whether we actually deploy to GitHub
@@ -22,10 +22,13 @@ jobs:
         run: echo ${{ github.event_name }}
 
       - name: Install Packages 🔧
-        run: yarn --frozen-lockfile
+        run: |
+          cd $GITHUB_WORKSPACE/calc
+          yarn --frozen-lockfile
 
       - name: Load Data into Graph 🔌
         run: |
+          cd $GITHUB_WORKSPACE/calc
           yarn load
           yarn graph
         env:
@@ -33,23 +36,44 @@ jobs:
           SOURCECRED_DISCORD_TOKEN: ${{ secrets.SOURCECRED_DISCORD_TOKEN }}
 
       - name: Compute Cred 🧮
-        run: yarn score
+        run: |
+          cd $GITHUB_WORKSPACE/calc
+          yarn score
 
       - name: Distribute Grain 💸
-        run: yarn grain
+        run: |
+          cd $GITHUB_WORKSPACE/calc
+          yarn grain
 
       - name: Commit Ledger 💾
-        uses: stefanzweifel/git-auto-commit-action@v4
-        if: "${{ github.event_name == 'schedule' }}"
+        run: |
+          cd $GITHUB_WORKSPACE/calc
+          git config user.name 'credbot'
+          git config user.email 'credbot@users.noreply.github.com'
+          git add data/ledger.json
+          git commit --allow-empty -m 'Auto-update ledger'
+
+      - name: Push Ledger
+        if: "${{ github.event_name == 'schedule' }}"  
+        run: |
+          cd $GITHUB_WORKSPACE/calc
+          git push
+      
+      # This is needed to delete git credentials
+      # in preparation for publishing the new details
+      - name: Checkout HEAD again
+        uses: actions/checkout@v2
         with:
-          commit_message: Auto-update ledger
-          file_pattern: data/ledger.json
+          persist-credentials: false
+
+      - name: Reinstall Packages 🔧
+        run: yarn --frozen-lockfile
 
       - name: Generate Frontend 🏗
         run: |
           yarn site
           rm -rf ./site/{output,data,config,sourcecred.json}
-          cp -r ./{output,data,config,sourcecred.json} ./site/
+          cp -r $GITHUB_WORKSPACE/calc/{output,data,config,sourcecred.json} ./site/
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.5.7
