@@ -58,19 +58,21 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE/calc
           git push
-      
+
       # This is needed to delete git credentials
       # in preparation for publishing the new details
       - name: Checkout HEAD again
         uses: actions/checkout@v2
         with:
+          path: deploy
           persist-credentials: false
 
       - name: Reinstall Packages 🔧
-        run: yarn --frozen-lockfile
+        run: cd deploy && yarn --frozen-lockfile
 
       - name: Generate Frontend 🏗
         run: |
+          cd deploy
           yarn site
           rm -rf ./site/{output,data,config,sourcecred.json}
           cp -r $GITHUB_WORKSPACE/calc/{output,data,config,sourcecred.json} ./site/
@@ -81,4 +83,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: site
+          FOLDER: deploy/site
