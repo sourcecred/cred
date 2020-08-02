@@ -46,7 +46,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: "sourcecred/cred"
-          ref: $(git rev-parse HEAD)
+          ref: $(git rev-parse --abrev-ref HEAD)
           persist-credentials: false
       
       - name: Check HEAD
