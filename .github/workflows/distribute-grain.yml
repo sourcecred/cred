@@ -32,23 +32,17 @@ jobs:
 
       - name: Push Ledger
         run: git push
-
-      - name: Checkout master HEAD
-        if: "${{ github.event_name == 'schedule' }}"
+      
+      # This is needed to delete git credentials
+      # in preparation for publishing the new details
+      - name: Checkout HEAD again
         uses: actions/checkout@v2
         with:
-          repository: "sourcecred/cred"
-          ref: master
           persist-credentials: false
       
-      - name: Checkout PR HEAD
-        if: "${{ github.event_name == 'push' }}"
-        uses: actions/checkout@v2
-        with:
-          repository: "sourcecred/cred"
-          persist-credentials: false
-      
-      - name: Get Latest HEAD # checkout only re-checks out the ref from the trigger
+      # checkout only re-checks out the ref from the trigger
+      # we need the lastest auto-committed changes too
+      - name: Get Latest HEAD
         run: |
           git pull --ff-only origin $(git rev-parse --abbrev-ref HEAD)
           git log -1
