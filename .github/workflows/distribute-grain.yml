@@ -21,6 +21,20 @@ jobs:
 
       - name: Install Packages 🔧
         run: yarn --frozen-lockfile
+      
+      - name: Load Data into Graph 🔌
+      run: |
+        yarn load
+        yarn graph
+      env:
+        SOURCECRED_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        SOURCECRED_DISCORD_TOKEN: ${{ secrets.SOURCECRED_DISCORD_TOKEN }}
+
+      - name: Compute Cred 🧮
+        run: yarn score
+
+      - name: Distribute Grain 💸
+        run: yarn grain
 
 
       - name: Commit Ledger 💾
