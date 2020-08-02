@@ -16,7 +16,9 @@ jobs:
         with:
           persist-credentials: false # Required to make github pages deployment work correctly
 
-      - name: "Debug: check event name"
+      - name: "[debug] Check GitHub event name"
+        # This is used to determine whether we actually deploy to GitHub
+        # Pages, so we print it upfront to aid with debugging.
         run: echo ${{ github.event_name }}
 
       - name: Install Packages 🔧
