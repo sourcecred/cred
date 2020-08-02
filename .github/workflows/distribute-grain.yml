@@ -59,6 +59,9 @@ jobs:
         run: |
           git pull --ff-only origin $(git rev-parse --abbrev-ref HEAD)
           git log -1
+      
+      - name: Reinstall Packages 🔧
+        run: yarn --frozen-lockfile
 
       - name: Generate Frontend 🏗
         run: |
