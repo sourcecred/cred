@@ -39,7 +39,7 @@ jobs:
       - name: Commit Ledger 💾
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: auto-update ledger
+          commit_message: Auto-update ledger
           file_pattern: data/ledger.json
 
       - name: Generate Frontend 🏗
