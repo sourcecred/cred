@@ -35,11 +35,11 @@ jobs:
       
       - name: Clear credentials after push
         run: |
-          git config --local --name-only --get-regexp core\.sshCommand
-          git submodule foreach --recursive git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :
-          git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
-          git config --local --unset-all http.https://github.com/.extraheader
-          git submodule foreach --recursive git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :
+          /usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+          /usr/bin/git submodule foreach --recursive git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :
+          /usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+          /usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+          /usr/bin/git submodule foreach --recursive git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :
       
       - name: Check HEAD
         run: git log -1
