@@ -50,7 +50,9 @@ jobs:
           persist-credentials: false
       
       - name: Check HEAD
-        run: git log -1
+        run: |
+          git pull
+          git log -1
 
       - name: Generate Frontend 🏗
         run: |
