@@ -13,8 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          persist-credentials: false # Required to make github pages deployment work correctly
 
       - name: "[debug] Check GitHub event name"
         # This is used to determine whether we actually deploy to GitHub
@@ -24,26 +22,18 @@ jobs:
       - name: Install Packages 🔧
         run: yarn --frozen-lockfile
 
-      - name: Load Data into Graph 🔌
-        run: |
-          yarn load
-          yarn graph
-        env:
-          SOURCECRED_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SOURCECRED_DISCORD_TOKEN: ${{ secrets.SOURCECRED_DISCORD_TOKEN }}
-
-      - name: Compute Cred 🧮
-        run: yarn score
-
-      - name: Distribute Grain 💸
-        run: yarn grain
 
       - name: Commit Ledger 💾
-        uses: stefanzweifel/git-auto-commit-action@v4
-        if: "${{ github.event_name == 'schedule' }}"
+        run: |
+          git add data/ledger.json
+          git commit --allow-empty -m 'Auto-update ledger'
+      
+      - name: Push Ledger
+        run: git push
+      
+      - uses: actions/checkout@v2
         with:
-          commit_message: Auto-update ledger
-          file_pattern: data/ledger.json
+          persist-credentials: false # Required to make github pages deployment work correctly
 
       - name: Generate Frontend 🏗
         run: |
