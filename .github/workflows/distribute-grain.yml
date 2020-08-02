@@ -23,12 +23,12 @@ jobs:
 
       - name: Install Packages 🔧
         run: |
-          cd $GITHUB_WORKSPACE/calc
+          cd calc
           yarn --frozen-lockfile
 
       - name: Load Data into Graph 🔌
         run: |
-          cd $GITHUB_WORKSPACE/calc
+          cd calc
           yarn load
           yarn graph
         env:
@@ -37,17 +37,17 @@ jobs:
 
       - name: Compute Cred 🧮
         run: |
-          cd $GITHUB_WORKSPACE/calc
+          cd calc
           yarn score
 
       - name: Distribute Grain 💸
         run: |
-          cd $GITHUB_WORKSPACE/calc
+          cd calc
           yarn grain
 
       - name: Commit Ledger 💾
         run: |
-          cd $GITHUB_WORKSPACE/calc
+          cd calc
           git config user.name 'credbot'
           git config user.email 'credbot@users.noreply.github.com'
           git add data/ledger.json
@@ -56,7 +56,7 @@ jobs:
       - name: Push Ledger
         if: "${{ github.event_name == 'schedule' }}"  
         run: |
-          cd $GITHUB_WORKSPACE/calc
+          cd calc
           git push
 
       # This is needed to delete git credentials
