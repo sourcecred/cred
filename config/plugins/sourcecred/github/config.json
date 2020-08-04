@@ -6,6 +6,7 @@
     "sourcecred/cred",
     "sourcecred/github-workflow-examples",
     "sourcecred/docs",
-    "sourcecred/example-instance"
+    "sourcecred/example-instance",
+    "sourcecred/template-instance"
   ]
 }
