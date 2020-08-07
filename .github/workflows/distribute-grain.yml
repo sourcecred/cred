@@ -19,30 +19,6 @@ jobs:
         # Pages, so we print it upfront to aid with debugging.
         run: echo ${{ github.event_name }}
 
-      - name: Install Packages 🔧
-        run: |
-          cd calc
-          yarn --frozen-lockfile
-
-      - name: Load Data into Graph 🔌
-        run: |
-          cd calc
-          yarn load
-          yarn graph
-        env:
-          SOURCECRED_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SOURCECRED_DISCORD_TOKEN: ${{ secrets.SOURCECRED_DISCORD_TOKEN }}
-
-      - name: Compute Cred 🧮
-        run: |
-          cd calc
-          yarn score
-
-      - name: Distribute Grain 💸
-        run: |
-          cd calc
-          yarn grain
-
       - name: Set environment variables
         run: |
           echo ::set-env name=PULL_REQUEST_TITLE::"[TEST] Scheduled grain distribution for week ending $(date +"%B %dth, %Y")"
