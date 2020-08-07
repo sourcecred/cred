@@ -13,8 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          path: calc
 
       - name: "[debug] Check GitHub event name"
         # This is used to determine whether we actually deploy to GitHub
@@ -45,42 +43,23 @@ jobs:
           cd calc
           yarn grain
 
-      - name: Commit Ledger 💾
+      - name: Set environment variables
         run: |
-          cd calc
-          git config user.name 'credbot'
-          git config user.email 'credbot@users.noreply.github.com'
-          git add data/ledger.json
-          git commit --allow-empty -m 'Auto-update ledger'
+          echo ::set-env name=PULL_REQUEST_TITLE::"[TEST] Scheduled grain distribution for week ending $(date +"%B %dth, %Y")"
+          echo ::set-env name=PULL_REQUEST_BODY::"This PR was auto-generated on $(date +%d-%m-%Y) \
+            to add the latest grain distribution to our instance."
+          echo test > generate-PR.txt
 
-      - name: Push Ledger
-        if: "${{ github.event_name == 'schedule' }}"  
-        run: |
-          cd calc
-          git push
-
-      # This is needed to delete git credentials
-      # in preparation for publishing the new details
-      - name: Checkout HEAD again
-        uses: actions/checkout@v2
+      - name: Create commit and PR for ledger changes
+        id: pr
+        uses: peter-evans/create-pull-request@v3
         with:
-          path: deploy
-          persist-credentials: false
+          branch: generated-ledger
+          branch-suffix: timestamp
+          committer: credbot <credbot@users.noreply.github.com>
+          author: credbot <credbot@users.noreply.github.com>
+          commit-message: update calculated ledger
+          title: ${{ env.PULL_REQUEST_TITLE }}
+          body: ${{ env.PULL_REQUEST_BODY }}
+        #if: "${{ github.event_name == 'schedule' }}"
 
-      - name: Reinstall Packages 🔧
-        run: cd deploy && yarn --frozen-lockfile
-
-      - name: Generate Frontend 🏗
-        run: |
-          cd deploy
-          yarn site
-          rm -rf ./site/{output,data,config,sourcecred.json}
-          cp -r $GITHUB_WORKSPACE/calc/{output,data,config,sourcecred.json} ./site/
-
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@3.5.7
-        if: "${{ github.event_name == 'schedule' }}"
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: deploy/site
