@@ -13,8 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          path: calc
 
       - name: "[debug] Check GitHub event name"
         # This is used to determine whether we actually deploy to GitHub
@@ -23,12 +21,10 @@ jobs:
 
       - name: Install Packages 🔧
         run: |
-          cd calc
           yarn --frozen-lockfile
 
       - name: Load Data into Graph 🔌
         run: |
-          cd calc
           yarn load
           yarn graph
         env:
@@ -37,12 +33,10 @@ jobs:
 
       - name: Compute Cred 🧮
         run: |
-          cd calc
           yarn score
 
       - name: Distribute Grain 💸
         run: |
-          cd calc
           yarn grain
 
       - name: Set environment variables
