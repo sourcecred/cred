@@ -28,7 +28,6 @@ jobs:
           description="This PR was auto-generated on $(date +%d-%m-%Y) \
             to add the latest grain distribution to our instance.\n$(cat grain_output.txt)"
           echo ::set-env name=PULL_REQUEST_BODY::"$description"
-          rm grain_output.txt
 
       - name: Create commit and PR for ledger changes
         id: pr
