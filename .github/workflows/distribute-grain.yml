@@ -41,7 +41,7 @@ jobs:
         run: |
           echo ::set-env name=PULL_REQUEST_TITLE::"Scheduled grain distribution for week ending $(date +"%B %dth, %Y")"
           echo ::set-env name=PULL_REQUEST_BODY::"This PR was auto-generated on $(date +%d-%m-%Y) \
-            to add the latest grain distribution to our instance. $(cat grain_output.txt)"
+            to add the latest grain distribution to our instance. <br /> <br />  $(cat grain_output.txt)"
           rm grain_output.txt
 
       - name: Create commit and PR for ledger changes
