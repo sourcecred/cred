@@ -17,11 +17,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: "[debug] Check GitHub event name"
-        # This is used to determine whether we actually deploy to GitHub
-        # Pages, so we print it upfront to aid with debugging.
-        run: echo ${{ github.event_name }}
-
       - name: Install Packages 🔧
         run: |
           yarn --frozen-lockfile
