@@ -6,7 +6,10 @@ on:
     - cron: 5 0 * * 0 # 00:05 UTC, 16:05 PST
   push:
     branches:
-      - "graintest-*" # won't actually update ledger or deploy frontend
+      # allows us to test this workflow, or manually generate distributions
+      # PRSs created from grain-trigger-* branches are targeted
+      # on their immediate base branches, as opposed to master
+      - "grain-trigger-*"
 
 jobs:
   distribute-grain:
