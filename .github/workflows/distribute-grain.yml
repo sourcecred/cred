@@ -38,10 +38,17 @@ jobs:
           yarn grain > grain_output.txt
 
       - name: Set environment variables
+        id: pr_details
         run: |
           echo ::set-env name=PULL_REQUEST_TITLE::"Scheduled grain distribution for week ending $(date +"%B %dth, %Y")"
-          echo ::set-env name=PULL_REQUEST_BODY::"This PR was auto-generated on $(date +%d-%m-%Y) \
-            to add the latest grain distribution to our instance. <br /> <br />  $(cat grain_output.txt)"
+          description="This PR was auto-generated on $(date +%d-%m-%Y) \
+            to add the latest grain distribution to our instance.
+
+            $(cat grain_output.txt)"
+          description="${description//'%'/'%25'}"
+          description="${description//$'\n'/'%0A'}"
+          description="${description//$'\r'/'%0D'}"
+          echo "::set-output name=pr_body::$description"
           rm grain_output.txt
 
       - name: Create commit and PR for ledger changes
@@ -56,5 +63,5 @@ jobs:
           author: credbot <credbot@users.noreply.github.com>
           commit-message: update calculated ledger
           title: ${{ env.PULL_REQUEST_TITLE }}
-          body: ${{ env.PULL_REQUEST_BODY }}
+          body: ${{ steps.pr_details.outputs.pr_body }}
           reviewers: decentralion
