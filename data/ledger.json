@@ -1002,3 +1002,4 @@
 {"action":{"identityId":"rR6t3JNLJOI1CjmpzFaMDw","newName":"EthMan","type":"RENAME_IDENTITY"},"ledgerTimestamp":1599102186064,"uuid":"1wHKriXMBaJegQGKA6fOJA","version":"1"}
 {"action":{"identityId":"rR6t3JNLJOI1CjmpzFaMDw","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1599102188232,"uuid":"L162JMuo2o1UEc3QRbIgRg","version":"1"}
 {"action":{"identityId":"UzJpWKbooYrL6HXo0ZzvIw","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1599102200648,"uuid":"0o7JeUbS1TbxDpiktyN4ZQ","version":"1"}
+{"action":{"amount":"1278000000000000000000","from":"brHJbQhd4Mg80tjbtQ1TNA","memo":"https://etherscan.io/tx/0xe86013475e5f40c05b720bb758489d7f1530b2561d5a7b9062e7e1fa487b553a","to":"Ec60d6PWymrN0ylmsZOHkg","type":"TRANSFER_GRAIN"},"ledgerTimestamp":1599103197547,"uuid":"FWVkQ0PYZUXil8ewW38tNg","version":"1"}
