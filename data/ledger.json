@@ -1020,3 +1020,5 @@
 {"action":{"identityId":"411jt1Up0i80L48ESpUWVw","newName":"ian","type":"RENAME_IDENTITY"},"ledgerTimestamp":1599518167948,"uuid":"h8XQJXFvDRZm8j6iE1PVsA","version":"1"}
 {"action":{"base":"411jt1Up0i80L48ESpUWVw","target":"qeb1Qld6NOMdbJ14Xniguw","type":"MERGE_IDENTITIES"},"ledgerTimestamp":1599518174518,"uuid":"jFlzQxe7MTDqkrQP5cA75g","version":"1"}
 {"action":{"identityId":"411jt1Up0i80L48ESpUWVw","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1599518317781,"uuid":"1y1kDAnv1ZGyc4NddDgDOA","version":"1"}
+{"action":{"base":"tmKknXI8lSly9dqdjvnkgQ","target":"D4eoUn7UlN8NsRm8ippR3w","type":"MERGE_IDENTITIES"},"ledgerTimestamp":1599518389510,"uuid":"xgdCEmcztqB5uXkVWaFvlw","version":"1"}
+{"action":{"identityId":"tmKknXI8lSly9dqdjvnkgQ","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1599518414570,"uuid":"rCXEV4AasdszDsnZ9G3ZoA","version":"1"}
