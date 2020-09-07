@@ -1022,3 +1022,10 @@
 {"action":{"identityId":"411jt1Up0i80L48ESpUWVw","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1599518317781,"uuid":"1y1kDAnv1ZGyc4NddDgDOA","version":"1"}
 {"action":{"base":"tmKknXI8lSly9dqdjvnkgQ","target":"D4eoUn7UlN8NsRm8ippR3w","type":"MERGE_IDENTITIES"},"ledgerTimestamp":1599518389510,"uuid":"xgdCEmcztqB5uXkVWaFvlw","version":"1"}
 {"action":{"identityId":"tmKknXI8lSly9dqdjvnkgQ","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1599518414570,"uuid":"rCXEV4AasdszDsnZ9G3ZoA","version":"1"}
+{"action":{"base":"lCBZVbopO7ljQy8dFl0o7A","target":"9MI0W4o4WWwnRMIQr6mlfw","type":"MERGE_IDENTITIES"},"ledgerTimestamp":1599518452262,"uuid":"4iOgKbBnwjMNmEfWfDgnCg","version":"1"}
+{"action":{"base":"N3Xf83HY5Z1gAoVsg87DWw","target":"jtYJbjTkSN6pU1DPXehaKQ","type":"MERGE_IDENTITIES"},"ledgerTimestamp":1599518486154,"uuid":"v00n5LbJU0PMprDEZLRUMA","version":"1"}
+{"action":{"base":"N3Xf83HY5Z1gAoVsg87DWw","target":"BEivtX36n1MYayL2wZXK6Q","type":"MERGE_IDENTITIES"},"ledgerTimestamp":1599518501736,"uuid":"Nqf47r0ijezq6f04KsDC6w","version":"1"}
+{"action":{"base":"nMcpxKD57Vo0rA0xdVPS4w","target":"VwuKZ2kh56FPdMF9PoYY8w","type":"MERGE_IDENTITIES"},"ledgerTimestamp":1599518538996,"uuid":"XilCo54H3iwHqiDmPVbRmA","version":"1"}
+{"action":{"base":"ziPHp0ZJJguAyyQzljJ0Ag","target":"FNNxtDyMUGG65qOvO9mczw","type":"MERGE_IDENTITIES"},"ledgerTimestamp":1599518551012,"uuid":"Kt8zYGVi1FLHJTJe5KwFeg","version":"1"}
+{"action":{"base":"xdRmS8FKT9ekqTlg7KAbeg","target":"mc19pZATDGD9jKz2B87GGA","type":"MERGE_IDENTITIES"},"ledgerTimestamp":1599518568693,"uuid":"9IB8QZwcal2ZRGMbhoHXLg","version":"1"}
+{"action":{"base":"ANoKH1j4GNSvC9NWXmSzbA","target":"LMvIvjqGc7AM2VfaDWxNOg","type":"MERGE_IDENTITIES"},"ledgerTimestamp":1599518580530,"uuid":"pF9qG3nWK2wE9ToUdfa9TQ","version":"1"}
