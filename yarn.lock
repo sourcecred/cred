@@ -1663,6 +1663,11 @@ lodash.sortby@^4.7.0:
   resolved "https://registry.yarnpkg.com/lodash.sortby/-/lodash.sortby-4.7.0.tgz#edd14c824e2cc9c1e0b0a1b42bb5210516a42438"
   integrity sha1-7dFMgk4sycHgsKG0K7UhBRakJDg=
 
+lodash.sortedindex@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/lodash.sortedindex/-/lodash.sortedindex-4.1.0.tgz#3f6417ee20e8b22416ab005bfa16344a0446b448"
+  integrity sha1-P2QX7iDosiQWqwBb+hY0SgRGtEg=
+
 lodash.throttle@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
@@ -2645,10 +2650,10 @@ source-map@^0.6.1:
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
 
-sourcecred@0.7.0-beta-11:
-  version "0.7.0-beta-11"
-  resolved "https://registry.yarnpkg.com/sourcecred/-/sourcecred-0.7.0-beta-11.tgz#ca880e4f28eb8b2417959b4da34b3afea491503f"
-  integrity sha512-3NDMgbOknvgPYOq+HQtufI+1m9Dyt3U7wdNhSDTUbawoB5BJyDE0N6ZrTSDNbAY6bBxNW7WtaPzpXKyDqh6qDQ==
+sourcecred@0.7.0-beta-14:
+  version "0.7.0-beta-14"
+  resolved "https://registry.yarnpkg.com/sourcecred/-/sourcecred-0.7.0-beta-14.tgz#275f7b0a3c5fb492a038d1305950c30145110234"
+  integrity sha512-jhb33Dea6nth1DqL/TcL757ODNIg+505u+LKpr0CVCjYNEvkVZ5sx8E/P3XZb5I9OCeMMxelG79en9aJIKagGw==
   dependencies:
     "@material-ui/lab" "^4.0.0-alpha.56"
     aphrodite "^2.4.0"
@@ -2679,6 +2684,7 @@ sourcecred@0.7.0-beta-11:
     lodash.clonedeep "^4.5.0"
     lodash.isequal "^4.5.0"
     lodash.sortby "^4.7.0"
+    lodash.sortedindex "^4.1.0"
     object-assign "^4.1.1"
     pako "^1.0.11"
     promise "^8.1.0"
