@@ -1,0 +1,13 @@
+[
+    {
+        "autoActivateOnIdentityCreation": true,
+        "id": "Ec60d6PWymrN0ylmsZOHkg",
+        "name": "sourcecred",
+        "periods": [
+            {
+                "startTime": "2020-09-06",
+                "weight": 0.1
+            }
+        ]
+    }
+]
