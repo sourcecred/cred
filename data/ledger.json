@@ -1191,3 +1191,5 @@
 {"action":{"base":"hgZzKZ1bebWxPTBe8O7KPw","target":"vwWTrZ3Ea7hyL5vdkVDuzw","type":"MERGE_IDENTITIES"},"ledgerTimestamp":1602384488130,"uuid":"nQOZw4PECzwZ9TLeY2VPjg","version":"1"}
 {"action":{"base":"hgZzKZ1bebWxPTBe8O7KPw","target":"AbwyupNanbLCKDaf57DDVg","type":"MERGE_IDENTITIES"},"ledgerTimestamp":1602384491962,"uuid":"4tYaJXDaIwQvdUmJW0vPpw","version":"1"}
 {"action":{"identityId":"hgZzKZ1bebWxPTBe8O7KPw","newName":"panchomiguel","type":"RENAME_IDENTITY"},"ledgerTimestamp":1602384505813,"uuid":"LgrVlJbFnVELP9xgnCZmaw","version":"1"}
+{"action":{"base":"sm4YNd8hX1j9fwKBFEirNA","target":"RQ6BGlGl0WyFYqeKqx3t4A","type":"MERGE_IDENTITIES"},"ledgerTimestamp":1602385330376,"uuid":"tjG1Udp7jp7t15UGpDF52g","version":"1"}
+{"action":{"identityId":"sm4YNd8hX1j9fwKBFEirNA","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1602385372267,"uuid":"073OA6H4vj5BpQefy28TeA","version":"1"}
