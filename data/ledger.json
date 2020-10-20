@@ -1263,3 +1263,5 @@
 {"action":{"base":"6wyPOVWLmZ2b35eCmOrz1w","target":"Dk513GuQvPpMBsowH8G8Ng","type":"MERGE_IDENTITIES"},"ledgerTimestamp":1603231215053,"uuid":"glvgfNxunXMexjv5faOG0A","version":"1"}
 {"action":{"base":"6wyPOVWLmZ2b35eCmOrz1w","target":"BjRtYBPwqqQdTPpF6IEJWw","type":"MERGE_IDENTITIES"},"ledgerTimestamp":1603231224161,"uuid":"iX2dUZEGsmnCoLPTnPBbYA","version":"1"}
 {"action":{"base":"6wyPOVWLmZ2b35eCmOrz1w","target":"eZGT1sosbU205lSzvHb5Qw","type":"MERGE_IDENTITIES"},"ledgerTimestamp":1603231228217,"uuid":"hzzOBWfRroSnLTJAtdC5DQ","version":"1"}
+{"action":{"identityId":"Q3BUpfW6ZYZEoPuGZvCrmw","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1603231541548,"uuid":"BIDXBAiAk4neG7jrzm0o3g","version":"1"}
+{"action":{"identityId":"Q3BUpfW6ZYZEoPuGZvCrmw","newName":"Carla78","type":"RENAME_IDENTITY"},"ledgerTimestamp":1603231601057,"uuid":"aLJXi5f0qGGJyJGml1mHPg","version":"1"}
