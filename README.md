@@ -7,7 +7,7 @@ You can view this as an example of what a fully configured SourceCred instance
 looks like.
 
 Some features to note:
-- The Cred is recalculated every six hours.
+- The Cred is recalculated every 24 hours.
 - It deploys to GitHub pages.
 - Config and permanent data (e.g. the Ledger) are stored in the master branch.
   All output or site data are stored in the gh-pages branch.
@@ -15,9 +15,9 @@ Some features to note:
   week. The `maxSimultaneousDistributions` parameter determines how many weeks
   of "back-distributions" to generate if the command hasn't been run in a while
   (or ever).
-- Run `yarn load && yarn graph && yarn score && yarn site && yarn serve` if you
-  want to load the data, create and score the graph, setup the site, and then
-  serve on localhost.
+- Run `yarn go` to load all the data and recalculate scores. Run `yarn go --no-load` if you
+  don't want to load data from scratch.
+- Run `yarn serve` to locally serve the frontend.
 - Run `yarn grain` if you want to distribute Grain using the current scores and the
   `config/grain.json`.
 
