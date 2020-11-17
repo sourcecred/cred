@@ -21,21 +21,14 @@ jobs:
         run: |
           yarn --frozen-lockfile
 
-      - name: Load Data into Graph 🔌
-        run: |
-          yarn load
-          yarn graph
+      - name: Load Data and Compute Cred 🧮
+        run: yarn sourcecred go
         env:
           SOURCECRED_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SOURCECRED_DISCORD_TOKEN: ${{ secrets.SOURCECRED_DISCORD_TOKEN }}
 
-      - name: Compute Cred 🧮
-        run: |
-          yarn score
-
       - name: Distribute Grain 💸
-        run: |
-          yarn grain > grain_output.txt
+        run: yarn grain > grain_output.txt
 
       - name: Set environment variables
         id: pr_details
