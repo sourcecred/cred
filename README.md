@@ -15,9 +15,6 @@ Some features to note:
   week. The `maxSimultaneousDistributions` parameter determines how many weeks
   of "back-distributions" to generate if the command hasn't been run in a while
   (or ever).
-- Run `yarn go` to load all the data and recalculate scores. Run `yarn go --no-load` if you
-  don't want to load data from scratch.
-- Run `yarn serve` to locally serve the frontend.
-- Run `yarn grain` if you want to distribute Grain using the current scores and the
-  `config/grain.json`.
-
+  
+  
+For instructions on how to run the instance locally, see the [Setup and Usage Guide](https://github.com/sourcecred/template-instance#setup-and-usage).
