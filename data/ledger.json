@@ -1453,3 +1453,6 @@
 {"action":{"identityId":"2jwNLBrZoyr3OQxMvRWZuA","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1606417336621,"uuid":"lOFmvCdBzGjv2bw96zg9DA","version":"1"}
 {"action":{"identityId":"u8GVKj5lHYOzjUW4XR3MdQ","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1606417352702,"uuid":"ZQRbpqMk2QD7e2JqmO02lg","version":"1"}
 {"action":{"identityId":"wS5BB3tGxdclEG8fGdzJyA","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1606417369708,"uuid":"EkdjiGWayH2Kxo4JKxjZug","version":"1"}
+{"action":{"identityId":"kSa03Ntybh3pOgIN3YN6oA","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1606417793229,"uuid":"Wbu4mNEPBhl6cMSMPFJBxg","version":"1"}
+{"action":{"identityId":"PvvajUW54QpDCWOP3ZO69g","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1606417809157,"uuid":"TozhWTD7VyfVxzHM7vMefw","version":"1"}
+{"action":{"base":"brHJbQhd4Mg80tjbtQ1TNA","target":"jyZvmmb979xMp6W9FZC0lg","type":"MERGE_IDENTITIES"},"ledgerTimestamp":1606417828965,"uuid":"CqZGQ6cJi9Tj2OCBE0GvKg","version":"1"}
