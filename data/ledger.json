@@ -1456,3 +1456,4 @@
 {"action":{"identityId":"kSa03Ntybh3pOgIN3YN6oA","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1606417793229,"uuid":"Wbu4mNEPBhl6cMSMPFJBxg","version":"1"}
 {"action":{"identityId":"PvvajUW54QpDCWOP3ZO69g","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1606417809157,"uuid":"TozhWTD7VyfVxzHM7vMefw","version":"1"}
 {"action":{"base":"brHJbQhd4Mg80tjbtQ1TNA","target":"jyZvmmb979xMp6W9FZC0lg","type":"MERGE_IDENTITIES"},"ledgerTimestamp":1606417828965,"uuid":"CqZGQ6cJi9Tj2OCBE0GvKg","version":"1"}
+{"action":{"amount":"2468840000000000000000","from":"hgZzKZ1bebWxPTBe8O7KPw","memo":"https://etherscan.io/tx/0xbe9e22226ed6c5d0426da12b8359ea5029f5baa2bb3697e3d2b59406cd9ddf4d","to":"Ec60d6PWymrN0ylmsZOHkg","type":"TRANSFER_GRAIN"},"ledgerTimestamp":1606418456898,"uuid":"TKgHlsYjiyZDvWLUpRGc9g","version":"1"}
