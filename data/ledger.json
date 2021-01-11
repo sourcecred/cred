@@ -1747,3 +1747,5 @@
 {"action":{"identityId":"N0LUB2l94pBOGAkSlUp3qw","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1610397497659,"uuid":"5Mrfnu9faFJfMoWONg2QbQ","version":"1"}
 {"action":{"base":"qlg4UyNZE87MR8U9Pa7H6A","target":"srsdrvclRcWoNjFK8jHESw","type":"MERGE_IDENTITIES"},"ledgerTimestamp":1610397833392,"uuid":"yhpsv8u1oh0Cqa3aKaxjQw","version":"1"}
 {"action":{"identityId":"VwrvrVcYHOwafkxXH2ELmQ","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1610397967704,"uuid":"Le8s2XAwSMc6avCPU4PpBw","version":"1"}
+{"action":{"identityId":"Z3owGrfOkZKaVMpV9pYJSQ","newName":"diego","type":"RENAME_IDENTITY"},"ledgerTimestamp":1610398051606,"uuid":"SbBhw1pwzkA4QmzMJvOnQA","version":"1"}
+{"action":{"identityId":"Z3owGrfOkZKaVMpV9pYJSQ","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1610398052523,"uuid":"FVjSeeZUYQgQp0qzMDBs1A","version":"1"}
