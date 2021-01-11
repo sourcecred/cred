@@ -1743,3 +1743,5 @@
 {"action":{"identity":{"address":"N\u0000sourcecred\u0000core\u0000IDENTITY\u0000DJRU8caGAEeIv7KnWo3Xsw\u0000","aliases":[],"id":"DJRU8caGAEeIv7KnWo3Xsw","name":"jennwrites","subtype":"USER"},"type":"CREATE_IDENTITY"},"ledgerTimestamp":1610397009178,"uuid":"n9hOp3DJKXwx6oJQdUDVMw","version":"1"}
 {"action":{"alias":{"address":"N\u0000sourcecred\u0000discord\u0000MEMBER\u0000user\u0000797966961761452104\u0000","description":"discord/jennwrites#3731"},"identityId":"DJRU8caGAEeIv7KnWo3Xsw","type":"ADD_ALIAS"},"ledgerTimestamp":1610397009178,"uuid":"lLEQlmVu2MGrNe43A9D4nw","version":"1"}
 {"action":{"base":"CJOm0HktjdtXN0RNDWHDag","target":"FXbm0xWm6BBzeAtlPENmOg","type":"MERGE_IDENTITIES"},"ledgerTimestamp":1610397463578,"uuid":"zi0EGvXQGGlIJuLW3Ib2AQ","version":"1"}
+{"action":{"base":"N0LUB2l94pBOGAkSlUp3qw","target":"506xEeuYeIWNkxvsbKQOsA","type":"MERGE_IDENTITIES"},"ledgerTimestamp":1610397495935,"uuid":"Hn8WALlinlDVmCAqHdQoZg","version":"1"}
+{"action":{"identityId":"N0LUB2l94pBOGAkSlUp3qw","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1610397497659,"uuid":"5Mrfnu9faFJfMoWONg2QbQ","version":"1"}
