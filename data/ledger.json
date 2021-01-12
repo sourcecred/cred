@@ -1749,3 +1749,5 @@
 {"action":{"identityId":"VwrvrVcYHOwafkxXH2ELmQ","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1610397967704,"uuid":"Le8s2XAwSMc6avCPU4PpBw","version":"1"}
 {"action":{"identityId":"Z3owGrfOkZKaVMpV9pYJSQ","newName":"diego","type":"RENAME_IDENTITY"},"ledgerTimestamp":1610398051606,"uuid":"SbBhw1pwzkA4QmzMJvOnQA","version":"1"}
 {"action":{"identityId":"Z3owGrfOkZKaVMpV9pYJSQ","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1610398052523,"uuid":"FVjSeeZUYQgQp0qzMDBs1A","version":"1"}
+{"action":{"identityId":"8vvdXoegkQ7LLAfdrQ333Q","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1610481935103,"uuid":"UEQEdG97OXoB1xTvt57bDg","version":"1"}
+{"action":{"identityId":"8vvdXoegkQ7LLAfdrQ333Q","newName":"Jojo","type":"RENAME_IDENTITY"},"ledgerTimestamp":1610481972633,"uuid":"Et5Y7KhOwpKaypnuYfmvrQ","version":"1"}
