@@ -1,6 +1,5 @@
 node_modules/
 site/
-output/
 cache/
 
 .env
