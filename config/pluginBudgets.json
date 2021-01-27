@@ -1,0 +1,17 @@
+{
+  "intervalLength": "WEEKLY",
+  "plugins": {
+    "sourcecred/github": [
+      {"startTime": "2018-01-01", "budget": 5000}
+    ],
+    "sourcecred/discord": [
+      {"startTime": "2018-01-01", "budget": 5000}
+    ],
+    "sourcecred/discourse": [
+      {"startTime": "2018-01-01", "budget": 5000}
+    ],
+    "sourcecred/initiatives": [
+      {"startTime": "2018-01-01", "budget": 5000}
+    ]
+  }
+}
