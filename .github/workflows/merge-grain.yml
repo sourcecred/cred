@@ -1,0 +1,12 @@
+name: Distribute Grain
+on: pull_request_target
+
+jobs:
+  merge-distribution:
+    name: Merge Grain Distribution
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ridedott/merge-me-action@v1
+        with:
+          GITHUB_LOGIN: github-actions[bot]
+          GITHUB_TOKEN: ${{ secrets.ADMIN_TOKEN }}
