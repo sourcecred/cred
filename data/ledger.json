@@ -1897,3 +1897,4 @@
 {"action":{"alias":{"address":"N\u0000sourcecred\u0000discord\u0000MEMBER\u0000user\u0000804427729478221854\u0000","description":"discord/RobRob#9007"},"identityId":"eaeVRaPik9vHyuzgr52oDA","type":"ADD_ALIAS"},"ledgerTimestamp":1612150646505,"uuid":"BG46AuP5u4qyqQ6aO6YaSQ","version":"1"}
 {"action":{"identityId":"rgDXqHzls8nggoJ2XCkYvg","newName":"stargarden","type":"RENAME_IDENTITY"},"ledgerTimestamp":1612150904094,"uuid":"PxwWxrvo7InKjAfbVUA7xA","version":"1"}
 {"action":{"identityId":"rgDXqHzls8nggoJ2XCkYvg","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1612150904779,"uuid":"b9KnMdpC4PxLuQdrARZqOg","version":"1"}
+{"action":{"identityId":"GtNgG9HRWz87Oqn2EDX8Lg","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1612150926571,"uuid":"145zAl7ZeSq7QkAMXFjWNQ","version":"1"}
