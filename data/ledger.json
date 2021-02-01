@@ -1898,3 +1898,5 @@
 {"action":{"identityId":"rgDXqHzls8nggoJ2XCkYvg","newName":"stargarden","type":"RENAME_IDENTITY"},"ledgerTimestamp":1612150904094,"uuid":"PxwWxrvo7InKjAfbVUA7xA","version":"1"}
 {"action":{"identityId":"rgDXqHzls8nggoJ2XCkYvg","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1612150904779,"uuid":"b9KnMdpC4PxLuQdrARZqOg","version":"1"}
 {"action":{"identityId":"GtNgG9HRWz87Oqn2EDX8Lg","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1612150926571,"uuid":"145zAl7ZeSq7QkAMXFjWNQ","version":"1"}
+{"action":{"base":"kGRTDDOambSA0kYoKQ6MoA","target":"K5I57nABfm3LXoD9LxX7Rg","type":"MERGE_IDENTITIES"},"ledgerTimestamp":1612150943670,"uuid":"ALwLEr0WUl9xuMxEu0JX3Q","version":"1"}
+{"action":{"identityId":"kGRTDDOambSA0kYoKQ6MoA","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1612150945521,"uuid":"e8i5e9Zhern4qIP1XdTvuw","version":"1"}
