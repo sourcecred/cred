@@ -1900,3 +1900,5 @@
 {"action":{"identityId":"GtNgG9HRWz87Oqn2EDX8Lg","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1612150926571,"uuid":"145zAl7ZeSq7QkAMXFjWNQ","version":"1"}
 {"action":{"base":"kGRTDDOambSA0kYoKQ6MoA","target":"K5I57nABfm3LXoD9LxX7Rg","type":"MERGE_IDENTITIES"},"ledgerTimestamp":1612150943670,"uuid":"ALwLEr0WUl9xuMxEu0JX3Q","version":"1"}
 {"action":{"identityId":"kGRTDDOambSA0kYoKQ6MoA","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1612150945521,"uuid":"e8i5e9Zhern4qIP1XdTvuw","version":"1"}
+{"action":{"base":"NwCEIJW9v3A2dVoaUDq7Jw","target":"NQmUJn0uRnsle1vZ9GjJPg","type":"MERGE_IDENTITIES"},"ledgerTimestamp":1612150969688,"uuid":"q9QQRojHak79bnDGohAyWg","version":"1"}
+{"action":{"identityId":"NwCEIJW9v3A2dVoaUDq7Jw","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1612150970975,"uuid":"I40V3mbXEMNkbO4yIrrLmQ","version":"1"}
