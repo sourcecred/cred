@@ -33,9 +33,9 @@ jobs:
         run: yarn grain > grain_output.txt
 
       - name: Set environment variables
-        id: pr_details
+        id: details
         run: |
-          echo "PULL_REQUEST_TITLE=Scheduled grain distribution for week ending $(date +"%B %dth, %Y")" >> $GITHUB_ENV
+          echo "COMMIT_TITLE=Scheduled grain distribution for week ending $(date +"%B %dth, %Y")" >> $GITHUB_ENV
           description="This PR was auto-generated on $(date +%d-%m-%Y) \
             to add the latest grain distribution to our instance.
 
@@ -43,7 +43,7 @@ jobs:
           description="${description//'%'/'%25'}"
           description="${description//$'\n'/'%0A'}"
           description="${description//$'\r'/'%0D'}"
-          echo "::set-output name=pr_body::$description"
+          echo "::set-output name=commit_body::$description"
           rm grain_output.txt
 
       - name: Commit ledger changes
@@ -51,7 +51,7 @@ jobs:
           git config user.name 'credbot'
           git config user.email 'credbot@users.noreply.github.com'
           git add data/ledger.json
-          git commit --allow-empty -m '${{ env.PULL_REQUEST_TITLE }}' -m '${{ steps.pr_details.outputs.pr_body }}'
+          git commit --allow-empty -m '${{ env.COMMIT_TITLE }}' -m '${{ steps.details.outputs.commit_body }}'
 
       - name: Push Ledger
         run: git push
