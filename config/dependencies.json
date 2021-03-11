@@ -3,6 +3,22 @@
         "autoActivateOnIdentityCreation": true,
         "id": "Ec60d6PWymrN0ylmsZOHkg",
         "name": "sourcecred",
-        "periods": []
+        "periods": [
+        ]
+    },
+    {
+        "autoActivateOnIdentityCreation": true,
+        "id": "zzq1gaskPC7U2Pbzpmc7NA",
+        "name": "DeepWork",
+        "periods": [
+            {
+                "startTime": "2021-02-13",
+                "weight": 0.2
+            },
+            {
+                "startTime": "2021-02-20",
+                "weight": 0
+            }
+        ]
     }
 ]
