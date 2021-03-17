@@ -57,4 +57,4 @@ jobs:
           commit-message: update calculated ledger
           title: ${{ env.PULL_REQUEST_TITLE }}
           body: ${{ steps.pr_details.outputs.pr_body }}
-          reviewers: decentralion
+          reviewers: panchomiguel
