@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "dotenv-cli": "^4.0.0",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "pako": "^2.0.3"
   }
 }
