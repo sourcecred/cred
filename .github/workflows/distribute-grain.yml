@@ -36,10 +36,10 @@ jobs:
         id: details
         run: |
           echo "COMMIT_TITLE=Scheduled grain distribution for week ending $(date +"%B %dth, %Y")" >> $GITHUB_ENV
-          description="This PR was auto-generated on $(date +%d-%m-%Y) \
-            to add the latest grain distribution to our instance.
+          description="This commit was auto-generated on $(date +%d-%m-%Y)
+          to add the latest grain distribution to our instance.
 
-            $(cat grain_output.txt)"
+          $(cat grain_output.txt)"
           description="${description//'%'/'%25'}"
           description="${description//$'\n'/'%0A'}"
           description="${description//$'\r'/'%0D'}"
