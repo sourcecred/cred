@@ -37,8 +37,8 @@ jobs:
       - name: Generate Frontend 🏗
         run: |
           yarn sourcecred site
-          rm -rf ./site/{output,data,config,sourcecred.json}
-          cp -r ./{output,data,config,sourcecred.json,package.json} ./site/
+          rm -rf ./site/{output,data,config,sourcecred.json,package.json,yarn.lock,cache}
+          cp -r ./{output,data,config,sourcecred.json,package.json,yarn.lock,cache} ./site/
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.1
