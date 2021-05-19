@@ -267,11 +267,6 @@ asap@^2.0.3, asap@~2.0.6:
   resolved "https://registry.yarnpkg.com/asap/-/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
   integrity sha1-5QNHYR1+aQlDIIu9r+vLwvuGbUY=
 
-at-least-node@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
-  integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
-
 atob@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
@@ -1123,12 +1118,11 @@ fs-constants@^1.0.0:
   resolved "https://registry.yarnpkg.com/fs-constants/-/fs-constants-1.0.0.tgz#6be0de9be998ce16af8afc24497b9ee9b7ccd9ad"
   integrity sha512-y6OAwoSIf7FyjMIv94u+b5rdheZEjzR63GTyZJm5qh4Bi+2YgwLCcI/fPFZkL5PSixOt6ZNKm+w+Hfp/Bciwow==
 
-fs-extra@^9.0.0:
-  version "9.1.0"
-  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-9.1.0.tgz#5954460c764a8da2094ba3554bf839e6b9a7c86d"
-  integrity sha512-hcg3ZmepS30/7BSFqRvoo3DOMQu7IjqxO5nCDt+zM9XWjb33Wg7ziNT+Qvqbuc3+gWpzO02JubVyk2G4Zvo1OQ==
+fs-extra@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-10.0.0.tgz#9ff61b655dde53fb34a82df84bb214ce802e17c1"
+  integrity sha512-C5owb14u9eJwizKGdchcDUQeFtlSHHthBk8pbX9Vc1PFZrLombudjDnNns88aYslCyF6IY5SUw3Roz6xShcEIQ==
   dependencies:
-    at-least-node "^1.0.0"
     graceful-fs "^4.2.0"
     jsonfile "^6.0.1"
     universalify "^2.0.0"
@@ -2157,10 +2151,10 @@ queue-microtask@^1.2.2:
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
-ra-core@^3.14.2:
-  version "3.14.2"
-  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-3.14.2.tgz#6765d7153b5c6a295d6dca71df593486b0735b6e"
-  integrity sha512-RPmQo1Rn9IEuaXCKpsnDTQQwRT3024lVz++vknxDkA1aDTJ5p0+86L0k8JCr1Bg0UyMpIMb+5UXLVEpyE8Dg7w==
+ra-core@^3.13.4, ra-core@^3.14.2:
+  version "3.15.1"
+  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-3.15.1.tgz#bc23cc364976701363a17fa213f8d8cf79f84dfd"
+  integrity sha512-VYhZ12y8GrzZDJw07B21WEPAxwrB872Ap0RtEyslL8N+GBzANVE2QYBVOtvqTACBzUN5kQiT7jSmADgnZDbsOg==
   dependencies:
     classnames "~2.2.5"
     date-fns "^1.29.0"
@@ -2193,10 +2187,10 @@ ra-language-english@^3.14.2:
   dependencies:
     ra-core "^3.14.2"
 
-ra-ui-materialui@^3.14.2:
-  version "3.14.2"
-  resolved "https://registry.yarnpkg.com/ra-ui-materialui/-/ra-ui-materialui-3.14.2.tgz#4c6e5ba4c134e952318ebb3b3f98802f41ef6f78"
-  integrity sha512-mY8C0NKsb617PWFQrwliUxOIZLavugCBcWo9fPIxpdtJxAjqkaOFPnhmwk4ef0yCl1S7fA2+0HolBBucidMOvg==
+ra-ui-materialui@^3.13.4, ra-ui-materialui@^3.14.2:
+  version "3.15.1"
+  resolved "https://registry.yarnpkg.com/ra-ui-materialui/-/ra-ui-materialui-3.15.1.tgz#ac9334fb73ee47a07c15ffec11b731a2542ba8b5"
+  integrity sha512-BWEdq8HjbRjYZMDq6RFPULGkkcSw+7owaWKVDGnFimpGo67Lpna9HO6Db+o7NCGeWlGmYnSgo1qun4Wm6gzDxw==
   dependencies:
     autosuggest-highlight "^3.1.1"
     classnames "~2.2.5"
@@ -2664,11 +2658,13 @@ source-map@^0.6.1:
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
 
-sourcecred@^0.8.5:
-  version "0.8.5"
-  resolved "https://registry.yarnpkg.com/sourcecred/-/sourcecred-0.8.5.tgz#979dd66e286e0daac82858f8069b59deebedae1a"
-  integrity sha512-HsfDTFgyYvTkQUEfhmmhMNDrvLohKF4elLwPUFDIHF/VwbTODdl/cdEnGvTH/6YzSbXpBOsgsAV0oOq5DzgIxg==
+sourcecred@^0.8.6:
+  version "0.8.6"
+  resolved "https://registry.yarnpkg.com/sourcecred/-/sourcecred-0.8.6.tgz#99612c23bc26f954594239f5f0ce3c6249f762e5"
+  integrity sha512-CCrrvg/HhjB7FAxfWKyi+tOv3+vpT5cHlEJ0CTPTc275QarWgJz5kGLlGj6Par/AL2q8B5QeMJXH4lpV4JU1NA==
   dependencies:
+    "@material-ui/core" "^4.11.2"
+    "@material-ui/icons" "^4.11.2"
     "@material-ui/lab" "^4.0.0-alpha.56"
     aphrodite "^2.4.0"
     babel-plugin-transform-flow-strip-types "^6.22.0"
@@ -2678,6 +2674,7 @@ sourcecred@^0.8.5:
     big-integer "^1.6.48"
     bottleneck "^2.19.5"
     chalk "^4.0.0"
+    classnames "~2.2.5"
     commonmark "0.29.1"
     cross-fetch "^3.0.6"
     d3-array "^2.4.0"
@@ -2688,8 +2685,9 @@ sourcecred@^0.8.5:
     d3-time "^2.0.0"
     d3-time-format "^3.0.0"
     deep-freeze "^0.0.1"
+    entities "^2.0.0"
     express "^4.17.1"
-    fs-extra "^9.0.0"
+    fs-extra "^10.0.0"
     globby "^11.0.0"
     history "^5.0.0"
     htmlparser2 "^6.0.0"
@@ -2705,7 +2703,9 @@ sourcecred@^0.8.5:
     object-assign "^4.1.1"
     pako "^2.0.3"
     promise "^8.1.0"
+    ra-core "^3.13.4"
     ra-data-fakerest "^3.6.2"
+    ra-ui-materialui "^3.13.4"
     react "^16.13.0"
     react-admin "^3.6.2"
     react-dom "^16.13.0"
