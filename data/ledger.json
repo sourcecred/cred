@@ -2831,3 +2831,7 @@
 {"action":{"amount":"4000000000000000000000","from":"IXabOyNNuWZMF5WOLHJBaA","memo":"https://etherscan.io/tx/0x705cbfcb3584c314f702d2add99180c367d1167074d270128dcc319e0c699db8","to":"Ec60d6PWymrN0ylmsZOHkg","type":"TRANSFER_GRAIN"},"ledgerTimestamp":1622142536599,"uuid":"C4orAA4DbWi7Dwq3MKyAvQ","version":"1"}
 {"action":{"amount":"12000000000000000000000","from":"hgZzKZ1bebWxPTBe8O7KPw","memo":"https://etherscan.io/tx/0x907db46adea9d655483f2116f8f080cfb83d032f538fa8046d3eb27f3929a2e5","to":"Ec60d6PWymrN0ylmsZOHkg","type":"TRANSFER_GRAIN"},"ledgerTimestamp":1622142549653,"uuid":"VD64aCwRmDBPguPIyG9cXw","version":"1"}
 {"action":{"base":"7Jr2HZTjNAAACafmGKFbhA","target":"eoz5jLXwOoBJ78AP8xEjDQ","type":"MERGE_IDENTITIES"},"ledgerTimestamp":1622234583636,"uuid":"UoTZibzrE4UlZREXywHaEw","version":"1"}
+{"action":{"base":"1PDqw9YBTo9RQPRCPlQ1Dg","target":"wfqw8hLASzgCDhzaxOtPbw","type":"MERGE_IDENTITIES"},"ledgerTimestamp":1622242152110,"uuid":"VkOaod7XPf4YCvzFjw73ww","version":"1"}
+{"action":{"identityId":"1PDqw9YBTo9RQPRCPlQ1Dg","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1622242195263,"uuid":"Axv08iVxPQq54rmHRdhmwg","version":"1"}
+{"action":{"identityId":"pzH3CB75Gd0e4Ca9YPMC4A","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1622242209669,"uuid":"Qk7avfmw2aJQZGDcajjOCg","version":"1"}
+{"action":{"identityId":"pxI6WhgH6UvYYcBEC0bjOQ","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1622242261217,"uuid":"mmJS1PGBjK7UY02L8LBzyA","version":"1"}
