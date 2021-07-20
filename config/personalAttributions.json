@@ -1,2 +1,108 @@
 [
+  {
+    "fromParticipantName": "Thena",
+    "recipients": [
+      {
+        "toParticipantName": "Jojo",
+        "proportions": [
+          {
+            "startDate": "1/1/2021",
+            "decimalProportion": 0.1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "fromParticipantName": "decentralion",
+    "recipients": [
+      {
+        "toParticipantName": "protocol",
+        "proportions": [
+          {
+            "startDate": "2/1/2018",
+            "decimalProportion": 0.2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "fromParticipantName": "lbstrobbe",
+    "recipients": [
+      {
+        "toParticipantName": "protocol",
+        "proportions": [
+          {
+            "startDate": "8/1/2020",
+            "decimalProportion": 0.2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "fromParticipantName": "topocount",
+    "recipients": [
+      {
+        "toParticipantName": "protocol",
+        "proportions": [
+          {
+            "startDate": "10/1/2020",
+            "decimalProportion": 0.2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "fromParticipantName": "wchargin",
+    "recipients": [
+      {
+        "toParticipantName": "protocol",
+        "proportions": [
+          {
+            "startDate": "2/1/2018",
+            "decimalProportion": 0.2
+          },
+          {
+            "startDate": "11/1/2018",
+            "decimalProportion": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "fromParticipantName": "scrabbleboy",
+    "recipients": [
+      {
+        "toParticipantName": "protocol",
+        "proportions": [
+          {
+            "startDate": "6/1/2021",
+            "decimalProportion": 0.2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "fromParticipantName": "hammad",
+    "recipients": [
+      {
+        "toParticipantName": "protocol",
+        "proportions": [
+          {
+            "startDate": "10/1/2020",
+            "decimalProportion": 0.2
+          },
+          {
+            "startDate": "11/1/2020",
+            "decimalProportion": 0
+          }
+        ]
+      }
+    ]
+  }
 ]
