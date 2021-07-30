@@ -3198,3 +3198,6 @@
 {"action":{"identityId":"FGV2PjseqTEtK0x88uZ2wA","newName":"freedrull","type":"RENAME_IDENTITY"},"ledgerTimestamp":1627434401576,"uuid":"QJndFXtPdgm96t5lRN7SRg","version":"1"}
 {"action":{"identityId":"bABvqLATjMf3FvILnmGOGA","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1627435124450,"uuid":"pDZCnBoNJYrG4hpNOu2U4w","version":"1"}
 {"action":{"base":"8vvdXoegkQ7LLAfdrQ333Q","target":"bABvqLATjMf3FvILnmGOGA","type":"MERGE_IDENTITIES"},"ledgerTimestamp":1627435167581,"uuid":"KZIM4buGaC9dyRbMNh1EVA","version":"1"}
+{"action":{"identityId":"zmx8J3vdCkM7kSm03SnF4A","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1627501567719,"uuid":"mI1wKCKUMgeXXI2ZzM8LOQ","version":"1"}
+{"action":{"base":"zmx8J3vdCkM7kSm03SnF4A","target":"hvaB77aw5xZDJw5L9bS5Bg","type":"MERGE_IDENTITIES"},"ledgerTimestamp":1627501575352,"uuid":"P8akUN67e2phDZaAIGqkRg","version":"1"}
+{"action":{"identityId":"zmx8J3vdCkM7kSm03SnF4A","newName":"FredDog","type":"RENAME_IDENTITY"},"ledgerTimestamp":1627501598013,"uuid":"mX4pCvfJYYFACBDPnsLmpQ","version":"1"}
