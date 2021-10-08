@@ -27,8 +27,6 @@ module.exports = {
         throw "There was a conflict. You will need to manually redo the actions onto the ledger in the main branch.";
       }
     }
-    const eventsRebased = i - firstIndex;
-    // console.log(ledger.serialize());
     return { ledger1, ledger2, ledgerResult };
   },
 };
