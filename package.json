@@ -7,6 +7,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "lodash.isequal": "^4.5.0",
     "sourcecred": "^0.9.3"
   },
   "scripts": {
@@ -16,7 +17,8 @@
     "start": "dotenv -- sourcecred go --no-load && sourcecred serve",
     "serve": "sourcecred serve",
     "grain": "sourcecred grain",
-    "go": "sourcecred go"
+    "go": "sourcecred go",
+    "rebase": "bash ./scripts/rebase-ledger/index.sh"
   },
   "devDependencies": {
     "dotenv-cli": "^4.0.0",
