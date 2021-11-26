@@ -56,6 +56,10 @@
                     {
                         "decimalProportion": 0.2,
                         "startDate": "10/1/2020"
+                    },
+                    {
+                        "decimalProportion": 0,
+                        "startDate": "11/1/2021"
                     }
                 ],
                 "toParticipantId": "DaIYqzL6bD8Fri2ZYcXVsQ",
