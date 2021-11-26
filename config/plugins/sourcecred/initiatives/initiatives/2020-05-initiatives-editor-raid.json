@@ -33,7 +33,7 @@
           "title": "Initial Meeting",
           "timestampIso": "2020-05-26T07:00:00.000Z",
           "contributors": [
-            "https://github.com/hammadj",
+            "https://github.com/META-DREAMER",
             "@yalor",
             "https://github.com/Beanow",
             "https://github.com/decentralion",
@@ -45,7 +45,7 @@
           "title": "Meeting to Define Deliverables",
           "timestampIso": "2020-05-27T07:00:00.000Z",
           "contributors": [
-            "https://github.com/hammadj",
+            "https://github.com/META-DREAMER",
             "@yalor",
             "https://github.com/topocount"
           ]
@@ -56,7 +56,7 @@
           "timestampIso": "2020-06-01T07:00:00.000Z",
           "contributors": [
             "https://github.com/topocount",
-            "https://github.com/hammadj",
+            "https://github.com/META-DREAMER",
             "@yalor",
             "https://github.com/decentralion"
           ]
@@ -67,7 +67,7 @@
           "timestampIso": "2020-06-08T07:00:00.000Z",
           "contributors": [
             "https://github.com/topocount",
-            "https://github.com/hammadj",
+            "https://github.com/META-DREAMER",
             "@yalor",
             "https://github.com/decentralion"
           ]
@@ -78,7 +78,7 @@
           "timestampIso": "2020-06-15T07:00:00.000Z",
           "contributors": [
             "https://github.com/topocount",
-            "https://github.com/hammadj",
+            "https://github.com/META-DREAMER",
             "@yalor",
             "https://github.com/decentralion"
           ]
@@ -89,7 +89,7 @@
           "timestampIso": "2020-06-22T07:00:00.000Z",
           "contributors": [
             "https://github.com/topocount",
-            "https://github.com/hammadj",
+            "https://github.com/META-DREAMER",
             "@yalor",
             "https://github.com/decentralion"
           ]
@@ -98,9 +98,7 @@
           "weight": 128,
           "title": "Initital Initiatives Editor Prototype w/ React Admin",
           "timestampIso": "2020-06-11T07:00:00.000Z",
-          "contributors": [
-            "https://github.com/topocount"
-          ]
+          "contributors": ["https://github.com/topocount"]
         },
         {
           "weight": 64,
@@ -109,7 +107,7 @@
           "contributors": [
             "https://github.com/topocount",
             "https://github.com/wchargin",
-            "https://github.com/hammadj",
+            "https://github.com/META-DREAMER",
             "https://github.com/decentralion"
           ]
         },
@@ -118,7 +116,7 @@
           "title": "Initiatives Editor UX / Data Structures Jam",
           "timestampIso": "2020-06-29T07:00:00.000Z",
           "contributors": [
-            "https://github.com/hammadj",
+            "https://github.com/META-DREAMER",
             "https://github.com/topocount",
             "https://github.com/decentralion",
             "https://github.com/wchargin",
@@ -130,7 +128,7 @@
           "title": "Expectation / Strategy Sync",
           "timestampIso": "2020-06-30T07:00:00.000Z",
           "contributors": [
-            "https://github.com/hammadj",
+            "https://github.com/META-DREAMER",
             "@yalor",
             "https://github.com/decentralion"
           ]
