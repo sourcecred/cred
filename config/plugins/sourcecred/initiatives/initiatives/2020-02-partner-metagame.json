@@ -12,9 +12,7 @@
     },
     "_fibonacciWeight": 8,
     "completed": false,
-    "champions": [
-      "https://github.com/hammadj"
-    ],
+    "champions": ["https://github.com/META-DREAMER"],
     "dependencies": [
       "https://github.com/sourcecred/cred/tree/master/initiatives/2020-02-credcon.json"
     ],
