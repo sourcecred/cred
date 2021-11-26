@@ -1,122 +1,126 @@
 [
-    {
-        "fromParticipantId": "6wyPOVWLmZ2b35eCmOrz1w",
-        "fromParticipantName": "Thena",
-        "recipients": [
-            {
-                "proportions": [
-                    {
-                        "decimalProportion": 0.1,
-                        "startDate": "1/1/2021"
-                    }
-                ],
-                "toParticipantId": "8vvdXoegkQ7LLAfdrQ333Q",
-                "toParticipantName": "Ryeder"
-            }
-        ]
-    },
-    {
-        "fromParticipantId": "4geJcec28KNLLkk92UbV4Q",
-        "fromParticipantName": "decentralion",
-        "recipients": [
-            {
-                "proportions": [
-                    {
-                        "decimalProportion": 0.2,
-                        "startDate": "2/1/2018"
-                    }
-                ],
-                "toParticipantId": "DaIYqzL6bD8Fri2ZYcXVsQ",
-                "toParticipantName": "protocol"
-            }
-        ]
-    },
-    {
-        "fromParticipantId": "Y8UATyyFzleHMGVMrG83NA",
-        "fromParticipantName": "lbstrobbe",
-        "recipients": [
-            {
-                "proportions": [
-                    {
-                        "decimalProportion": 0.2,
-                        "startDate": "8/1/2020"
-                    }
-                ],
-                "toParticipantId": "DaIYqzL6bD8Fri2ZYcXVsQ",
-                "toParticipantName": "protocol"
-            }
-        ]
-    },
-    {
-        "fromParticipantId": "4ND9B0aec8kbS42VcXmV4g",
-        "fromParticipantName": "topocount",
-        "recipients": [
-            {
-                "proportions": [
-                    {
-                        "decimalProportion": 0.2,
-                        "startDate": "10/1/2020"
-                    }
-                ],
-                "toParticipantId": "DaIYqzL6bD8Fri2ZYcXVsQ",
-                "toParticipantName": "protocol"
-            }
-        ]
-    },
-    {
-        "fromParticipantId": "f6XQDbS9WbjRVsRy2PjpYw",
-        "fromParticipantName": "wchargin",
-        "recipients": [
-            {
-                "proportions": [
-                    {
-                        "decimalProportion": 0.2,
-                        "startDate": "2/1/2018"
-                    },
-                    {
-                        "decimalProportion": 0,
-                        "startDate": "11/1/2018"
-                    }
-                ],
-                "toParticipantId": "DaIYqzL6bD8Fri2ZYcXVsQ",
-                "toParticipantName": "protocol"
-            }
-        ]
-    },
-    {
-        "fromParticipantId": "7Jr2HZTjNAAACafmGKFbhA",
-        "fromParticipantName": "scrabbleboy",
-        "recipients": [
-            {
-                "proportions": [
-                    {
-                        "decimalProportion": 0.2,
-                        "startDate": "6/1/2021"
-                    }
-                ],
-                "toParticipantId": "DaIYqzL6bD8Fri2ZYcXVsQ",
-                "toParticipantName": "protocol"
-            }
-        ]
-    },
-    {
-        "fromParticipantId": "jPnmMGoC1QwA5XvBX2Lh0Q",
-        "fromParticipantName": "hammad",
-        "recipients": [
-            {
-                "proportions": [
-                    {
-                        "decimalProportion": 0.2,
-                        "startDate": "10/1/2020"
-                    },
-                    {
-                        "decimalProportion": 0,
-                        "startDate": "11/1/2020"
-                    }
-                ],
-                "toParticipantId": "DaIYqzL6bD8Fri2ZYcXVsQ",
-                "toParticipantName": "protocol"
-            }
-        ]
-    }
+  {
+    "fromParticipantId": "6wyPOVWLmZ2b35eCmOrz1w",
+    "fromParticipantName": "Thena",
+    "recipients": [
+      {
+        "proportions": [
+          {
+            "decimalProportion": 0.1,
+            "startDate": "1/1/2021"
+          }
+        ],
+        "toParticipantId": "8vvdXoegkQ7LLAfdrQ333Q",
+        "toParticipantName": "Ryeder"
+      }
+    ]
+  },
+  {
+    "fromParticipantId": "4geJcec28KNLLkk92UbV4Q",
+    "fromParticipantName": "decentralion",
+    "recipients": [
+      {
+        "proportions": [
+          {
+            "decimalProportion": 0.2,
+            "startDate": "2/1/2018"
+          }
+        ],
+        "toParticipantId": "DaIYqzL6bD8Fri2ZYcXVsQ",
+        "toParticipantName": "protocol"
+      }
+    ]
+  },
+  {
+    "fromParticipantId": "Y8UATyyFzleHMGVMrG83NA",
+    "fromParticipantName": "lbstrobbe",
+    "recipients": [
+      {
+        "proportions": [
+          {
+            "decimalProportion": 0.2,
+            "startDate": "8/1/2020"
+          }
+        ],
+        "toParticipantId": "DaIYqzL6bD8Fri2ZYcXVsQ",
+        "toParticipantName": "protocol"
+      }
+    ]
+  },
+  {
+    "fromParticipantId": "4ND9B0aec8kbS42VcXmV4g",
+    "fromParticipantName": "topocount",
+    "recipients": [
+      {
+        "proportions": [
+          {
+            "decimalProportion": 0.2,
+            "startDate": "10/1/2020"
+          },
+          {
+            "decimalProportion": 0.0,
+            "startDate": "11/1/2021"
+          }
+        ],
+        "toParticipantId": "DaIYqzL6bD8Fri2ZYcXVsQ",
+        "toParticipantName": "protocol"
+      }
+    ]
+  },
+  {
+    "fromParticipantId": "f6XQDbS9WbjRVsRy2PjpYw",
+    "fromParticipantName": "wchargin",
+    "recipients": [
+      {
+        "proportions": [
+          {
+            "decimalProportion": 0.2,
+            "startDate": "2/1/2018"
+          },
+          {
+            "decimalProportion": 0,
+            "startDate": "11/1/2018"
+          }
+        ],
+        "toParticipantId": "DaIYqzL6bD8Fri2ZYcXVsQ",
+        "toParticipantName": "protocol"
+      }
+    ]
+  },
+  {
+    "fromParticipantId": "7Jr2HZTjNAAACafmGKFbhA",
+    "fromParticipantName": "scrabbleboy",
+    "recipients": [
+      {
+        "proportions": [
+          {
+            "decimalProportion": 0.2,
+            "startDate": "6/1/2021"
+          }
+        ],
+        "toParticipantId": "DaIYqzL6bD8Fri2ZYcXVsQ",
+        "toParticipantName": "protocol"
+      }
+    ]
+  },
+  {
+    "fromParticipantId": "jPnmMGoC1QwA5XvBX2Lh0Q",
+    "fromParticipantName": "hammad",
+    "recipients": [
+      {
+        "proportions": [
+          {
+            "decimalProportion": 0.2,
+            "startDate": "10/1/2020"
+          },
+          {
+            "decimalProportion": 0,
+            "startDate": "11/1/2020"
+          }
+        ],
+        "toParticipantId": "DaIYqzL6bD8Fri2ZYcXVsQ",
+        "toParticipantName": "protocol"
+      }
+    ]
+  }
 ]
