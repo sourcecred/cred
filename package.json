@@ -8,7 +8,7 @@
   "private": true,
   "dependencies": {
     "lodash.isequal": "^4.5.0",
-    "sourcecred": "^0.10.0"
+    "sourcecred": "^0.10.1"
   },
   "scripts": {
     "clean": "rimraf cache site",
