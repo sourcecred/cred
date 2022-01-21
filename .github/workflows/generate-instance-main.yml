@@ -1,0 +1,47 @@
+name: Generate Instance Main
+on:
+  # A new interval every Sunday.
+  schedule:
+    - cron: 5 0 * * 0 # 00:05 UTC, 16:05 PST
+  # Adds a button to manually trigger
+  workflow_dispatch:
+
+jobs:
+  generate-instance-main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.ADMIN_TOKEN }}
+
+      - name: Install Packages 🔧
+        run: |
+          yarn --frozen-lockfile
+
+      - name: Load Data and Compute Cred 🧮
+        run: yarn sourcecred go
+        env:
+          SOURCECRED_GITHUB_TOKEN: ${{ secrets.SOURCECRED_GITHUB_TOKEN }}
+          SOURCECRED_DISCORD_TOKEN: ${{ secrets.SOURCECRED_DISCORD_TOKEN }}
+
+      - name: Set environment variables
+        id: details
+        run: |
+          echo "COMMIT_TITLE=Scheduled aliases update for week ending $(date +"%B %dth, %Y")" >> $GITHUB_ENV
+          description="This commit was auto-generated on $(date +%d-%m-%Y)
+          to add the latest aliases to our instance."
+          description="${description//'%'/'%25'}"
+          description="${description//$'\n'/'%0A'}"
+          description="${description//$'\r'/'%0D'}"
+          echo "::set-output name=commit_body::$description"
+
+      - name: Commit ledger changes
+        run: |
+          git config user.name 'credbot'
+          git config user.email 'credbot@users.noreply.github.com'
+          git add data/ledger.json
+          git add config
+          git commit --allow-empty -m '${{ env.COMMIT_TITLE }}' -m '${{ steps.details.outputs.commit_body }}'
+
+      - name: Push Ledger
+        run: git push
