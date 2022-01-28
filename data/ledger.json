@@ -4841,3 +4841,4 @@
 {"action":{"identityId":"9YIYckrvKDBsWKgwGJFvcA","newName":"kingdamieth","type":"RENAME_IDENTITY"},"ledgerTimestamp":1643206649940,"uuid":"dSOZ51oKsjSkTXiNZOzZpg","version":"1"}
 {"action":{"identityId":"9YIYckrvKDBsWKgwGJFvcA","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1643206663880,"uuid":"kYznLp66WzQNqZyR31vOrg","version":"1"}
 {"action":{"base":"Hxd6JY8UV2nONuzJX0iyUg","target":"5DMe5o29xaNziaqiLs98BA","type":"MERGE_IDENTITIES"},"ledgerTimestamp":1643206787081,"uuid":"ngWhJZGZCwXO9ExrI6oPqA","version":"1"}
+{"action":{"currency":{"chainId":"1","tokenAddress":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48","type":"EVM"},"id":"6wyPOVWLmZ2b35eCmOrz1w","payoutAddress":"0x37F8d21a8f30DA69f8d929dECB08209c29De9163","type":"SET_PAYOUT_ADDRESS"},"ledgerTimestamp":1643349275810,"uuid":"c3x8yYZL8UzhMrtV44DFYQ","version":"1"}
