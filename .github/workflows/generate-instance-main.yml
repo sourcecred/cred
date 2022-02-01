@@ -2,7 +2,7 @@ name: Generate Instance Main
 on:
   # A new interval every Sunday.
   schedule:
-    - cron: 5 10 * * 0 # 00:05 UTC, 16:05 PST
+    - cron: 5 17 * * 0 # 00:05 UTC, 16:05 PST
   # Adds a button to manually trigger
   workflow_dispatch:
 
@@ -45,3 +45,16 @@ jobs:
 
       - name: Push Ledger
         run: git push
+
+      - name: Generate Frontend 🏗
+        run: |
+          yarn sourcecred site
+          rm -rf ./site/{output,data,config,sourcecred.json,package.json,yarn.lock,cache,.gitignore}
+          cp -r ./{output,data,config,sourcecred.json,package.json,yarn.lock,cache,.gitignore} ./site/
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.1
+        with:
+          token: ${{ secrets.SOURCECRED_GITHUB_TOKEN }}
+          branch: cache-archive
+          folder: site
