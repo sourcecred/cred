@@ -1,0 +1,25 @@
+{
+  "intervalLength": "WEEKLY",
+  "plugins": {
+    "sourcecred/github": [
+      {"startTime": "2018-01-01", "budget": 5000},
+      {"startTime": "2021-06-04", "budget": 0},
+      {"startTime": "2021-07-02", "budget": 5000}
+    ],
+    "sourcecred/discord": [
+      {"startTime": "2018-01-01", "budget": 5000},
+      {"startTime": "2021-06-04", "budget": 0},
+      {"startTime": "2021-07-02", "budget": 5000}
+    ],
+    "sourcecred/discourse": [
+      {"startTime": "2018-01-01", "budget": 5000},
+      {"startTime": "2021-06-04", "budget": 0},
+      {"startTime": "2021-07-02", "budget": 5000}
+    ],
+    "sourcecred/initiatives": [
+      {"startTime": "2018-01-01", "budget": 5000},
+      {"startTime": "2021-06-04", "budget": 0},
+      {"startTime": "2021-07-02", "budget": 5000}
+    ]
+  }
+}

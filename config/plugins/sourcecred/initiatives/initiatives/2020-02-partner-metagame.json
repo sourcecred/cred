@@ -1,0 +1,22 @@
+[
+  {
+    "type": "sourcecred/initiativeFile",
+    "version": "0.1.0"
+  },
+  {
+    "title": "Partner MetaGame",
+    "timestampIso": "2020-02-10T10:00:00.000Z",
+    "weight": {
+      "incomplete": 800,
+      "complete": 800
+    },
+    "_fibonacciWeight": 8,
+    "completed": false,
+    "champions": ["https://github.com/META-DREAMER"],
+    "dependencies": [
+      "https://github.com/sourcecred/cred/tree/master/initiatives/2020-02-credcon.json"
+    ],
+    "references": [],
+    "contributions": []
+  }
+]

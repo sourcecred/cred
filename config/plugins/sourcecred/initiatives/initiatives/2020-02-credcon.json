@@ -1,0 +1,32 @@
+[
+  {
+    "type": "sourcecred/initiativeFile",
+    "version": "0.1.0"
+  },
+  {
+    "title": "CredCon",
+    "timestampIso": "2020-02-10T10:00:00.000Z",
+    "weight": {
+      "incomplete": 0,
+      "complete": 0
+    },
+    "_fibonacciWeight": 0,
+    "completed": true,
+    "champions": [
+      "https://discourse.sourcecred.io/u/decentralion",
+      "https://discourse.sourcecred.io/u/lb"
+    ],
+    "dependencies": [
+      "https://github.com/sourcecred/cred/tree/master/initiatives/2020-02-credcon-car.json",
+      "https://github.com/sourcecred/cred/tree/master/initiatives/2020-02-credcon-food.json",
+      "https://github.com/sourcecred/cred/tree/master/initiatives/2020-02-credcon-lodging.json"
+    ],
+    "references": [
+      "https://discourse.sourcecred.io/t/credcon/531",
+      "https://discourse.sourcecred.io/t/meeting-notes-credcon-schedule-agenda/598"
+    ],
+    "contributions": [
+      "https://discourse.sourcecred.io/t/credcon-everything-you-need-to-know/559"
+    ]
+  }
+]

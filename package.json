@@ -1,0 +1,27 @@
+{
+  "name": "cred",
+  "version": "0.1.0",
+  "description": "SourceCred's Own Cred Instance",
+  "repository": "git@github.com:sourcecred/cred.git",
+  "author": "SourceCred Team <contact@sourcecred.io>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "lodash.isequal": "^4.5.0",
+    "sourcecred": "^0.10.2"
+  },
+  "scripts": {
+    "clean": "rimraf cache site",
+    "clean-all": "yarn clean && rimraf output",
+    "load": "dotenv sourcecred load",
+    "start": "dotenv -- sourcecred go --no-load && sourcecred serve",
+    "serve": "sourcecred serve",
+    "grain": "sourcecred grain",
+    "go": "sourcecred go",
+    "rebase": "bash ./scripts/rebase-ledger/index.sh"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^4.0.0",
+    "rimraf": "^3.0.2"
+  }
+}

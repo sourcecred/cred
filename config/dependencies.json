@@ -1,0 +1,24 @@
+[
+    {
+        "autoActivateOnIdentityCreation": true,
+        "id": "Ec60d6PWymrN0ylmsZOHkg",
+        "name": "sourcecred",
+        "periods": [
+        ]
+    },
+    {
+        "autoActivateOnIdentityCreation": true,
+        "id": "vKNDrdz6Ue8tRCmpO2uAZQ",
+        "name": "DeepWork",
+        "periods": [
+            {
+                "startTime": "2021-02-13",
+                "weight": 0.2
+            },
+            {
+                "startTime": "2021-02-20",
+                "weight": 0
+            }
+        ]
+    }
+]
