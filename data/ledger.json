@@ -4973,3 +4973,8 @@
 {"action":{"alias":{"address":"N\u0000sourcecred\u0000discord\u0000MEMBER\u0000user\u0000924928494671118366\u0000","description":"discord/DatGirl#8511"},"identityId":"izko3drTPsQVi1VmBrcPeA","type":"ADD_ALIAS"},"ledgerTimestamp":1644186602295,"uuid":"bgv4LWAbhohw64yN7Ymuag","version":"1"}
 {"action":{"identity":{"address":"N\u0000sourcecred\u0000core\u0000IDENTITY\u0000dCM9Ix3rNrXEU2qxukiQqw\u0000","aliases":[],"id":"dCM9Ix3rNrXEU2qxukiQqw","name":"HEPR","subtype":"USER"},"type":"CREATE_IDENTITY"},"ledgerTimestamp":1644186602295,"uuid":"XRB5eV3cMxXqlOO8X4em6Q","version":"1"}
 {"action":{"alias":{"address":"N\u0000sourcecred\u0000discord\u0000MEMBER\u0000user\u0000935715204170391623\u0000","description":"discord/HEPR#6095"},"identityId":"dCM9Ix3rNrXEU2qxukiQqw","type":"ADD_ALIAS"},"ledgerTimestamp":1644186602295,"uuid":"7bk773rOyr6TlKk31t58yQ","version":"1"}
+{"action":{"identityId":"eNwBy4JLeKL5jm9GPN03gQ","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1644530674376,"uuid":"krbbPtzwXJ2vRaNu6A9oOA","version":"1"}
+{"action":{"identityId":"6r5olY7zJNL2x1vGYJIx8w","newName":"ALOYSIOUS","type":"RENAME_IDENTITY"},"ledgerTimestamp":1644530674376,"uuid":"14c9T2k6vzKKpWQzH2C41w","version":"1"}
+{"action":{"base":"9YIYckrvKDBsWKgwGJFvcA","target":"RWG0SxoI9AQ189uAINRcjQ","type":"MERGE_IDENTITIES"},"ledgerTimestamp":1644530674376,"uuid":"YKEwgmAMYv1rXV29ioh7bA","version":"1"}
+{"action":{"identityId":"HqdXKbIY4cpjXOYfXPyJQQ","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1644530674376,"uuid":"9q1zVtwUjqNVyg13JcR2eg","version":"1"}
+
