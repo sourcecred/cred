@@ -1,1 +1,1 @@
-{"credEquatePlugins":[{"id":"sourcecred/discord","configsByTarget":{"453243919774253079":[{"memo":"asdf","startDate":"2022-03-24","weights":[],"operators":[],"shares":[]}]}}],"bundledPlugins":["sourcecred/discourse","sourcecred/github"]}
+{"credEquatePlugins":[],"bundledPlugins":["sourcecred/discourse","sourcecred/github"]}
