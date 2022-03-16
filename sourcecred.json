@@ -1,3 +1,1 @@
-{
-  "bundledPlugins": ["sourcecred/discourse", "sourcecred/github", "sourcecred/discord", "sourcecred/initiatives"]
-}
+{"credEquatePlugins":[],"bundledPlugins":["sourcecred/discourse","sourcecred/github","sourcecred/discord"]}
