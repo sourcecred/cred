@@ -21,7 +21,7 @@
     "rebase": "bash ./scripts/rebase-ledger/index.sh"
   },
   "devDependencies": {
-    "dotenv-cli": "^4.0.0",
+    "dotenv-cli": "^5.1.0",
     "rimraf": "^3.0.2"
   }
 }
